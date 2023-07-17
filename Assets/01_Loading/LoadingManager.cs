@@ -1,7 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+using System.Linq;
 
 public class LoadingManager : MonoBehaviour
 {
@@ -12,13 +15,39 @@ public class LoadingManager : MonoBehaviour
     public TextMeshProUGUI loadingTxt;
     public TextMeshProUGUI loadingProgressTxt;
 
+    public Sprite[] loadingSprite;
+    public string[] loadingCharacterNameList;
+    public Image loadingImage;
+    public TextMeshProUGUI loadingCharacterName;
+
     string routeName;
     float progress;
     bool isLoad = false;
     void Start()
     {
+        SetImage();
         RouteDiv();
         DontDestroyOnLoad(this.gameObject);
+    }
+
+    private void SetImage()
+    {
+        System.Random _sysRand = new System.Random();
+
+        int index = _sysRand.Next(0, loadingSprite.Length);
+        loadingImage.sprite = loadingSprite.ElementAt(index);
+        loadingCharacterName.text = loadingCharacterNameList.ElementAt(index);
+    }
+
+    
+    public static T RandomItem<T>(IEnumerable<T> list)
+    {
+        System.Random _sysRand = new System.Random();
+
+        if (!list.Any())
+            return default(T);
+        int index = _sysRand.Next(0, list.Count());
+        return list.ElementAt(index);
     }
 
     void RouteDiv()
@@ -27,10 +56,10 @@ public class LoadingManager : MonoBehaviour
         switch (routeName)
         {
             case "main":
-                async_main = SceneManager.LoadSceneAsync("Main", LoadSceneMode.Single);
+                async_main = SceneManager.LoadSceneAsync("02_MainMenu", LoadSceneMode.Single);
                 break;
             case "outside":
-                async_outside = SceneManager.LoadSceneAsync("Outside", LoadSceneMode.Single);
+                async_outside = SceneManager.LoadSceneAsync("03_Battle", LoadSceneMode.Single);
                 break;
             case "title":
                 async_title = SceneManager.LoadSceneAsync("Title", LoadSceneMode.Single);
