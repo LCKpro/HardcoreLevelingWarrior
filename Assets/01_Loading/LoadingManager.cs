@@ -48,7 +48,7 @@ public class LoadingManager : MonoBehaviour
             case "main":
                 _async_Main = SceneManager.LoadSceneAsync("02_MainMenu", LoadSceneMode.Single);
                 break;
-            case "outside":
+            case "battle":
                 _async_Battle = SceneManager.LoadSceneAsync("03_Battle", LoadSceneMode.Single);
                 break;
             case "title":

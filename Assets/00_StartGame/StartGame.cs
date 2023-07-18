@@ -7,7 +7,7 @@ public class StartGame : MonoBehaviour
 
     private void Awake()
     {
-        int info_Day = 1;
+        /*int info_Day = 1;
         int info_Gold = 0;
         int info_LongHammer = 0;
         int info_Food = 0;
@@ -25,9 +25,9 @@ public class StartGame : MonoBehaviour
         CryptoPlayerPrefs_HasKeyIntFind("info_MedicalFill", info_MedicalFill);
         CryptoPlayerPrefs_HasKeyIntFind("info_BlueFill", info_BlueFill);
         CryptoPlayerPrefs_HasKeyIntFind("info_Wood", info_Wood);
-        CryptoPlayerPrefs_HasKeyIntFind("info_Rifle", info_Rifle);
+        CryptoPlayerPrefs_HasKeyIntFind("info_Rifle", info_Rifle);*/
 
-        CryptoPlayerPrefs_HasKeyStringFind("route", "main");
+        //CryptoPlayerPrefs_HasKeyStringFind("route", "main");
     }
 
     private void Start()
@@ -63,40 +63,5 @@ public class StartGame : MonoBehaviour
         messageBox.SetActive(true);
     }
 
-    public void CryptoPlayerPrefs_HasKeyIntFind(string key, int value)
-    {
-        if (!CryptoPlayerPrefs.HasKey(key))
-        {
-            CryptoPlayerPrefs.SetInt(key, value);
-        }
-        else
-        {
-            CryptoPlayerPrefs.GetInt(key, 0);
-        }
-    }
-
-    public void CryptoPlayerPrefs_HasKeyFloatFind(string key, float value)
-    {
-        if (!CryptoPlayerPrefs.HasKey(key))
-        {
-            CryptoPlayerPrefs.SetFloat(key, value);
-        }
-        else
-        {
-            CryptoPlayerPrefs.GetFloat(key, 0);
-        }
-    }
-
-
-    public void CryptoPlayerPrefs_HasKeyStringFind(string key, string value)
-    {
-        if (!CryptoPlayerPrefs.HasKey(key))
-        {
-            CryptoPlayerPrefs.SetString(key, value);
-        }
-        else
-        {
-            CryptoPlayerPrefs.GetString(key, "0");
-        }
-    }
+    
 }
