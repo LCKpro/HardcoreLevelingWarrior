@@ -7,9 +7,14 @@ public class MainMenu : MonoBehaviour
     public UI_Currency ui_Currency;
     public UI_MainSystem ui_MainSystem;
 
+    private void Start()
+    {
+        Init();
+    }
+
     public void Init()
     {
-        
+        ui_Currency.InitCurrency();
     }
 
     /// <summary>
