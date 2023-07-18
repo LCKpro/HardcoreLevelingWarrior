@@ -26,6 +26,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5531935205234948380}
   - {fileID: 5531935204000297954}
@@ -33,7 +34,7 @@ RectTransform:
   - {fileID: 5531935203585431446}
   - {fileID: 5531935203637627341}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -45,6 +46,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5531935205040522169}
     m_Modifications:
     - target: {fileID: 7944455289935802440, guid: 9ddbfab867bbdaa459129739906c5141,
@@ -158,6 +160,9 @@ PrefabInstance:
       value: EventBtn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ddbfab867bbdaa459129739906c5141, type: 3}
 --- !u!224 &5531935204000297954 stripped
 RectTransform:
@@ -170,6 +175,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5531935205040522169}
     m_Modifications:
     - target: {fileID: 8952103856744331382, guid: 127223984fcebc740bd9d5c59dcf2727,
@@ -283,6 +289,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 127223984fcebc740bd9d5c59dcf2727, type: 3}
 --- !u!224 &5531935203585431446 stripped
 RectTransform:
@@ -295,6 +304,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5531935205040522169}
     m_Modifications:
     - target: {fileID: 9136941922715372730, guid: 485ee9ed0cf1e6e4aa6641f1e1996ac8,
@@ -408,6 +418,9 @@ PrefabInstance:
       value: SettingBtn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 485ee9ed0cf1e6e4aa6641f1e1996ac8, type: 3}
 --- !u!224 &5531935205234948380 stripped
 RectTransform:
@@ -420,6 +433,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5531935205040522169}
     m_Modifications:
     - target: {fileID: 288199895098003528, guid: e6f0b6b279ce01e40b47ff09c99d1125,
@@ -510,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 288199895098003543, guid: e6f0b6b279ce01e40b47ff09c99d1125,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -634
+      value: -594
       objectReference: {fileID: 0}
     - target: {fileID: 288199895098003543, guid: e6f0b6b279ce01e40b47ff09c99d1125,
         type: 3}
@@ -533,6 +547,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6f0b6b279ce01e40b47ff09c99d1125, type: 3}
 --- !u!224 &5531935203637627341 stripped
 RectTransform:
@@ -545,6 +562,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5531935205040522169}
     m_Modifications:
     - target: {fileID: 1994450744242231316, guid: 8e54b31efefa10d45a92b620ca5c66f0,
@@ -658,6 +676,9 @@ PrefabInstance:
       value: RubyBg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e54b31efefa10d45a92b620ca5c66f0, type: 3}
 --- !u!224 &5531935204748586415 stripped
 RectTransform:

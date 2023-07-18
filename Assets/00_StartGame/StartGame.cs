@@ -3,8 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class StartGame : MonoBehaviour
 {
-    public string route;
-
     public GameObject messageBox;
 
     private void Awake()
@@ -29,7 +27,7 @@ public class StartGame : MonoBehaviour
         CryptoPlayerPrefs_HasKeyIntFind("info_Wood", info_Wood);
         CryptoPlayerPrefs_HasKeyIntFind("info_Rifle", info_Rifle);
 
-        CryptoPlayerPrefs_HasKeyStringFind("route", route = "main");
+        CryptoPlayerPrefs_HasKeyStringFind("route", "main");
     }
 
     private void Start()
@@ -48,7 +46,6 @@ public class StartGame : MonoBehaviour
 
     public void OnClick_TapToStart()
     {
-        route = "main";
         CryptoPlayerPrefs.SetString("route", "main");
         SceneManager.LoadScene("01_Loading");
     }
