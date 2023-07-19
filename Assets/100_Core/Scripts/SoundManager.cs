@@ -28,7 +28,7 @@ public class SoundManager : MonoBehaviour
         else if (instance != this)
             Destroy(gameObject);
 
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
 
         // 각 사운드에 AudioSource 컴포넌트 추가 및 초기화
         foreach (Sound sound in sounds)

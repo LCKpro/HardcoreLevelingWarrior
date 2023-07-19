@@ -19,7 +19,8 @@ public class UI_MainSystem : MonoBehaviour
     /// </summary>
     public void OnClick_ManageSquad()
     {
-
+        var popup = Core.Instance.uiPopUpManager.ShowAndGet<UI_Squad>("UI_Squad");
+        popup.SetData();
     }
 
     /// <summary>

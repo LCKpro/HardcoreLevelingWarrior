@@ -52,7 +52,7 @@ public class UI_SquadScrollerController : MonoBehaviour, IEnhancedScrollerDelega
 
     public float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
     {
-        return 350f;
+        return 128f;
     }
 
     public EnhancedScrollerCellView GetCellView(EnhancedScroller scroller, int dataIndex, int cellIndex)
@@ -61,12 +61,8 @@ public class UI_SquadScrollerController : MonoBehaviour, IEnhancedScrollerDelega
 
         cellView = scroller.GetCellView(squadCellViewPrefab) as UI_SquadCellView;
 
-        if(dataIndex == 3 || dataIndex == 7 || dataIndex == 24 || dataIndex == 4)
-        {
-            cellView.SetData(_data_Squad[dataIndex], dataIndex);
-
-            CheckFirstSquad(_data_Squad[dataIndex]);
-        }
+        cellView.SetData(_data_Squad[dataIndex], dataIndex);
+        CheckFirstSquad(_data_Squad[dataIndex]);
 
         return cellView;
     }
@@ -90,6 +86,9 @@ public class UI_SquadScrollerController : MonoBehaviour, IEnhancedScrollerDelega
             var popup = Core.Instance.uiPopUpManager.Get<UI_Squad>("UI_Squad");
             var charName = Convert.ToString(data["CharacterName"]);
             var iller = Convert.ToString(data["IllerstrationPath"]);
+
+            Debug.Log("1 : " + charName);
+            Debug.Log("2 : " + iller);
 
             popup.SetSquad(new SquadInfo() { characterName = charName, illerstrationPath = iller });
         }
