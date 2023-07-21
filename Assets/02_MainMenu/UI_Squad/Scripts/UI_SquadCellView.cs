@@ -27,7 +27,8 @@ public class UI_SquadCellView : EnhancedScrollerCellView
         _illerstrationPath = Convert.ToString(data["IllerstrationPath"]);
         _iconPath = Convert.ToString(data["IconPath"]);
 
-        icon_Squad.sprite = Resources.Load<Sprite>(Convert.ToString(data["SquadPath"]));
+        //icon_Squad.sprite = Resources.Load<Sprite>(Convert.ToString(data["SquadPath"]));
+        icon_Squad.sprite = Resources.Load<Sprite>(Convert.ToString(data["SquadPath"]) + "_0");
     }
 
     public void OnClick_Squad()

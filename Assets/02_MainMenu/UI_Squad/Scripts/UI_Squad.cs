@@ -16,7 +16,8 @@ public class UI_Squad : MonoBehaviour
     public void SetSquad(SquadInfo squadInfo)
     {
         text_Name.text = squadInfo.characterName;
-        image_Illerstration.sprite = Resources.Load<Sprite>(squadInfo.illerstrationPath);
+        //image_Illerstration.sprite = Resources.Load<Sprite>(squadInfo.illerstrationPath);
+        image_Illerstration.sprite = Resources.Load<Sprite>(squadInfo.illerstrationPath + "_0");
     }
 
     public void SetData()

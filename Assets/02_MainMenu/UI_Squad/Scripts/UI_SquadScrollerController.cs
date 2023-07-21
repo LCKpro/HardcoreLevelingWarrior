@@ -52,7 +52,7 @@ public class UI_SquadScrollerController : MonoBehaviour, IEnhancedScrollerDelega
 
     public float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
     {
-        return 128f;
+        return 162.3f;
     }
 
     public EnhancedScrollerCellView GetCellView(EnhancedScroller scroller, int dataIndex, int cellIndex)
