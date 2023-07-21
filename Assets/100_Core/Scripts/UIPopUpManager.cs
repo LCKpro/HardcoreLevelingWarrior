@@ -1,15 +1,11 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class UIPopUpManager : MonoBehaviour
 {
-    //public string location;
-    //public string layerName;
     public Dictionary<string, GameObject> popUpBufferList = new Dictionary<string, GameObject>();
     public Transform safeArea;
-    //[SerializeField] private GameObject screenGuard;
     private PopUpPools poolManager;
 
     public const string uiWorldPrefabName = "UI_PopUp_World";
@@ -18,7 +14,6 @@ public class UIPopUpManager : MonoBehaviour
     {
         poolManager = GetComponent<PopUpPools>();
         popUpBufferList.Clear();
-        //screenGuard?.SetActive(!AppSwitch.IsLog);
     }
 
     /// <summary>
@@ -105,12 +100,6 @@ public class UIPopUpManager : MonoBehaviour
     // 순차적으로 닫기
     public void Hide()
     {
-        // 만약 로딩중이면 동작하지 않음
-        //if (Core.Instance.networkLoadingUI.gameObject.activeSelf == true)
-            //return;
-
-        //if (AppSwitch.IsLog) GameUtils.Log("UIPopUpManager / Hide () " + popUpBufferList.Count);
-
         // 비활성화 된 팝업 UI뎁스 예외처리
         for (int i = safeArea.childCount - 1; i >= 0; i--)
         {
@@ -143,16 +132,11 @@ public class UIPopUpManager : MonoBehaviour
                 }
             }
         }
-
-        // 게임 재개 시도
-        //CheckResume();
     }
 
     // 특정 팝업 닫기
     public void Hide(string popUpName)
     {
-        //if (AppSwitch.IsLog) GameUtils.Log("UIPopUpManager / Hide () " + popUpName);
-
         if (popUpBufferList.Count > 0)
         {
             if (popUpBufferList.ContainsKey(popUpName) == true)
@@ -167,16 +151,11 @@ public class UIPopUpManager : MonoBehaviour
                 p.Hide();
             }
         }
-
-        // 게임 재개 시도
-        //CheckResume();
     }
 
     // 특정 팝업 빼고 모두 닫기 
     public void HideOthers(string name)
     {
-        //if (AppSwitch.IsLog) GameUtils.Log("UIPopUpManager / HideOthers () " + name);
-
         List<string> removeKeys = new List<string>();
         var i = popUpBufferList.GetEnumerator();
         while (i.MoveNext())
@@ -195,15 +174,10 @@ public class UIPopUpManager : MonoBehaviour
         {
             popUpBufferList.Remove(key);
         }
-
-        // 게임 재개 시도
-        //CheckResume();
     }
 
     public void HideOthers(string[] name)
     {
-        //if (AppSwitch.IsLog) GameUtils.Log("UIPopUpManager / HideOthers () " + name);
-
         List<string> removeKeys = new List<string>();
         var i = popUpBufferList.GetEnumerator();
         while (i.MoveNext())
@@ -228,16 +202,11 @@ public class UIPopUpManager : MonoBehaviour
         {
             popUpBufferList.Remove(key);
         }
-
-        // 게임 재개 시도
-        //CheckResume();
     }
 
     //모두 닫기 
     public void HideAll()
     {
-        //if (AppSwitch.IsLog) GameUtils.Log("UIPopUpManager / HideAll () ");
-
         List<string> removeKeys = new List<string>();
         var i = popUpBufferList.GetEnumerator();
         while (i.MoveNext())
@@ -253,15 +222,10 @@ public class UIPopUpManager : MonoBehaviour
         {
             popUpBufferList.Remove(key);
         }
-
-        // 게임 재개 시도
-        //CheckResume();
     }
 
     public void Dispose(string name)
     {
-        //if (AppSwitch.IsLog) GameUtils.Log("UIPopUpManager / Dispose() / target: " + name);
-
         if (popUpBufferList.ContainsKey(name))
         {
             popUpBufferList.Remove(name);
@@ -273,8 +237,6 @@ public class UIPopUpManager : MonoBehaviour
     //특정 팝업 열려있는지 확인
     public bool CheckIsView(string name)
     {
-        //if (AppSwitch.IsLog) GameUtils.Log("UIPopUpManager / CheckIsView() : " + name);
-
         var i = popUpBufferList.GetEnumerator();
         while (i.MoveNext())
         {
@@ -322,100 +284,4 @@ public class UIPopUpManager : MonoBehaviour
         foreach (var target in targets)
             Hide(target);
     }
-
-    // 강제로 퍼즈 띄우기
-    /*public void SetPause(string origin = "")
-    {
-        *//*if (Core.Instance != null &&
-            Core.Instance.uiPopUpManager != null &&
-            SceneManager.GetActiveScene().name.Equals("00_StartLoader") &&
-            StartLoader.Instance != null &&
-            StartLoader.Instance.loadCompleted == true)
-        {
-        }
-        else return;*//*
-
-        // 예외처리: 튜토리얼중엔 멈추지 않음
-        *//*if (Core.Instance.tutorialManager.IsShowTutorial() == true)
-            return;*//*
-
-        // 예외처리: 퍼즈 블랙리스트
-        if (origin.Equals("UI_StatusImproved") ||
-            origin.Equals("UI_Level_Open_Info") ||
-            origin.Equals("UI_Preset_Level_Open_Info") ||
-            origin.Equals("UI_Shop_Lock") ||
-            origin.Equals("UI_PopUp_ResurrectionRequest") ||
-            origin.Equals("UI_PopUp_Village_Warning"))
-            return;
-
-        GameUtils.Log("UIPopupManager / SetPause()");
-
-        if (InGame.Instance != null && InGame.CheckCantPause == false)
-        {
-            if (InGame.player != null)
-                InGame.Instance.PauseSkillCoolTimer(true);
-
-            InGame.Instance.PauseInGame(true);
-        }
-
-        if (InGame.CheckCantTimeScalePause == false)
-            Time.timeScale = 0;
-
-        // 이벤트시스템 수정
-        DragThresholdController.Instance.SetDragThreshold_ForUI();
-    }*/
-
-    // 게임 재개 시도
-    /*public void CheckResume()
-    {
-        if (Time.timeScale != 0)
-        {
-            return;
-        }
-
-        *//*if (Core.Instance != null &&
-            Core.Instance.uiPopUpManager != null &&
-            SceneManager.GetActiveScene().name.Equals("00_StartLoader") &&
-            StartLoader.Instance != null &&
-            StartLoader.Instance.loadCompleted == true)
-        {
-        }
-        else return;*//*
-
-        // 예외처리: 튜토리얼중엔 재개하지 않음
-        *//*if (Core.Instance.tutorialManager.IsShowTutorial() == true)
-            return;*//*
-
-        // 열려있는 팝업이 없을 때만 동작 (UIPopUpManager 체크)
-        var popupList = new Dictionary<string, GameObject>(popUpBufferList);
-        popupList.Remove("UI_StatusImproved");
-        popupList.Remove("UI_Level_Open_Info");
-        popupList.Remove("UI_Preset_Level_Open_Info");
-        popupList.Remove("UI_Shop_Lock");
-        popupList.Remove("UI_PopUp_ResurrectionRequest");
-        popupList.Remove("UI_PopUp_Village_Warning");
-        // popupList.Remove("UI_Popup_SelectShot");
-        // popupList.Remove("UI_Popup_SelectShot_ClearBoss");
-        // popupList.Remove("UI_Popup_SelectShot_ClearFinalBoss");
-        if (popupList.Count > 0)
-            return;
-
-        // 열려있는 팝업이 없을 때만 동작 (UIEffectManager 체크)
-        *//*var popupList_effect = new Dictionary<string, GameObject>(Core.Instance.uiEffectManager.popUpBufferList);
-        if (popupList_effect.Count > 0)
-            return;*//*
-
-        GameUtils.Log("UIPopupManager / CheckResume()");
-
-        if (InGame.Instance != null)
-        {
-            if (InGame.player != null)
-                InGame.Instance.PauseSkillCoolTimer(false);
-
-            InGame.Instance.PauseInGame(false);
-            InGame.Instance.playerManager.InitPlayerCameraRotation();
-        }
-
-        Time.timeScale = 1;
-    }*/
 }

@@ -32,7 +32,9 @@ public class UI_SquadCellView : EnhancedScrollerCellView
 
     public void OnClick_Squad()
     {
-        SoundManager.instance.PlaySound("NormalClick");
+        SoundManager.instance.PlaySound("ButtonClick");
+        var popup = Core.Instance.uiPopUpManager.Get<UI_Squad>("UI_Squad");
+        popup.SetSquad(new SquadInfo() { characterName = _characterName, illerstrationPath = _illerstrationPath });
     }
 }
 

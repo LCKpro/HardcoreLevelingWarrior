@@ -782,7 +782,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2583c04f3f735b4daec3dc57dfa16e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: NormalClick
+    clip: {fileID: 8300000, guid: f3445447ab0d35645915c1e2e6a6e46c, type: 3}
+    source: {fileID: 0}
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: 943397c0559fe274c8c8b528ac44440f, type: 3}
+    source: {fileID: 0}
   bgmSounds: []
 --- !u!1 &705507993
 GameObject:
