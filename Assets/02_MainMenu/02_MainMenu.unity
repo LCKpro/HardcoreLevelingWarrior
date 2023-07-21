@@ -618,6 +618,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &337613531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 337613532}
+  - component: {fileID: 337613533}
+  m_Layer: 0
+  m_Name: SkillManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &337613532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337613531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2016548242}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &337613533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337613531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc700024b9d60a41b92fd68f97a4354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &400736866
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,6 +970,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acbe71dc48b6f894980aef7917cd2017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &865317318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865317319}
+  - component: {fileID: 865317320}
+  m_Layer: 0
+  m_Name: CharacterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &865317319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865317318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2016548242}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &865317320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865317318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c9ca60300769f43b4a55ba0076ff68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &903547736
@@ -1410,6 +1498,177 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1140133003}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1208693364
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208693365}
+  - component: {fileID: 1208693366}
+  m_Layer: 0
+  m_Name: ItemManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1208693365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208693364}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2016548242}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208693366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208693364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 179924298807a8e4285b7d5f0086a8f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDataList:
+  - uuid: 100010001
+    itemName: "\uAE30\uC0AC\uB2E8\uC758 \uBCF4\uAC80 - \uC77C\uACF1\uAC1C\uC758 \uC9C4\uC2E4"
+    description: "\uC5F4\uB819\uC804\uC0AC \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 5b6b086a9abafd244ba6192340744c20, type: 3}
+    price: 0
+  - uuid: 100010002
+    itemName: "\uACF0\uC8FC\uBA39"
+    description: "\uD5E4\uB9AC\uC544\uCE58 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: fa553aec4a86b9748b6cdb283248fb63, type: 3}
+    price: 0
+  - uuid: 100010003
+    itemName: "\uCFE0\uBC14\uBC14\uC758 \uC131\uAC80"
+    description: "\uC804\uD22C\uCC9C\uC0AC \uCFE0\uBC14\uBC14\uC758 \uD798\uC774
+      \uAE43\uB4E0 \uAC80."
+    sprite: {fileID: 21300000, guid: f29bf37df6e5c6e41af29c9dbc299d49, type: 3}
+    price: 0
+  - uuid: 100010005
+    itemName: "\uC5D0\uACE0 \uC18C\uB4DC - \uB9DB\uAC1D"
+    description: "\uC18C\uB77C \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 17cb15fa00b525a4c955204ba456618a, type: 3}
+    price: 0
+  - uuid: 100010006
+    itemName: "\uAE30\uC0AC\uB2E8\uC758 \uB9C8\uAC80"
+    description: "\uD558\uD2B8\uD788\uD130 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 3e5ffbbdf2b5a1c46829d92d5696e82d, type: 3}
+    price: 0
+  - uuid: 100010007
+    itemName: "\uB300\uC7A5\uAD70\uC758 \uD14C\uC774\uD551"
+    description: "\uC288\uBE0C \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: c4a4c55000b7d714dadab0ce59dd6a63, type: 3}
+    price: 0
+  - uuid: 100010008
+    itemName: "\uD22C\uC2E0\uC758 \uB108\uD074"
+    description: "\uB370\uC774\uCEE8 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 899326a5a983fbd409783ea5955255b6, type: 3}
+    price: 0
+  - uuid: 100010011
+    itemName: "\uC5D0\uACE0\uC18C\uB4DC - \uD574\uB8E1\uAC80"
+    description: "\uC9C0\uC874\uAC80\uC0AC \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 39117dc301b8cd84f8ddd4643900f8f8, type: 3}
+    price: 0
+  - uuid: 100010013
+    itemName: "\uBC1C\uD0A4\uB9AC \uCC3D"
+    description: "\uAE40\uBE44\uC11C \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 6f84e8a53481fc44e8cdf240ee984d03, type: 3}
+    price: 0
+  - uuid: 100010014
+    itemName: "6\uBC88\uC9F8 \uAC80 - \uB2C8\uB4E4"
+    description: "\uC81C\uB85C \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 81f0f0500349f2941897c1ca272ac1eb, type: 3}
+    price: 0
+  - uuid: 100010015
+    itemName: "\uC8FD\uCC3D\uAC80"
+    description: "\uC8FD\uCC3D\uB9E8 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: b2307b1ee8dde9046baec89741d311b6, type: 3}
+    price: 0
+  - uuid: 100010016
+    itemName: "\uBAA8\uD5D8\uAC00\uC758 \uB2E8\uAC80"
+    description: "\uB178\uB124\uC784 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: cdc3514364680134cb68cdb62c643f99, type: 3}
+    price: 0
+  - uuid: 100010017
+    itemName: "\uBB34\uC2E0\uC758 \uB0AB"
+    description: "\uC5EC\uD3EC \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 7bd1130056d76ea4cacb9c722c6b502f, type: 3}
+    price: 0
+  - uuid: 100010019
+    itemName: "\uC120\uAD6C\uC790\uC758 \uBA38\uC2A4\uCEA3"
+    description: "\uC544\uB974\uBA54\uC2A4 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 7e4496e7e1d57e546bc7dd0a2f2fa867, type: 3}
+    price: 0
+  - uuid: 100010020
+    itemName: "\uBCF4\uC6B0 \uB9C8\uC2A4\uD130\uC758 \uB0C9\uAE30"
+    description: "\uCFC4 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: fc74662a9f4d1c240a1101c990d046c7, type: 3}
+    price: 0
+  - uuid: 100010021
+    itemName: "\uAD6C\uC6D0\uC758 \uB77C\uC774\uD50C"
+    description: "\uD15C\uD398\uC2A4\uD2B8 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: d9fea13044d74944ab18d2725df10b9c, type: 3}
+    price: 0
+  - uuid: 100010021
+    itemName: "\uB9C8\uAC80 \uB3CC\uCCB4"
+    description: "\uD15C\uD398\uC2A4\uD2B8 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 2c9b7d65d0ca5864895c947197026c63, type: 3}
+    price: 0
+  - uuid: 100010023
+    itemName: "\uBE14\uB9AC\uC790\uB4DC"
+    description: "\uB9AC\uACE0\uC2A4 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 17d7effd57d0f0a4f9e88be679994613, type: 3}
+    price: 0
+  - uuid: 100010024
+    itemName: "38\uBC88\uC9F8 \uAC80 - \uC800\uC8FC"
+    description: "\uC0C8\uB4DC\uC2A4\uB9C8\uC77C \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 98c8fd4c6e5eac54384cf096c72f85d9, type: 3}
+    price: 0
+  - uuid: 100010025
+    itemName: "\uB9C8\uC2A4\uD130 \uBCF8 \uC644\uB4DC"
+    description: "\uB2E4\uD06C \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 396e910cf335e664493ac70f0fc300c9, type: 3}
+    price: 0
+  - uuid: 100010026
+    itemName: "\uD154\uB808\uD3EC\uD2B8 \uD45C\uC2DD"
+    description: "\uCD08\uCF54\uBE44\uBE44 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 222b5b89b8cf9e44c9dad72be9b2d51f, type: 3}
+    price: 0
+  - uuid: 100010027
+    itemName: "\uB9C8\uAC01\uB3C4"
+    description: "\uD478\uC6B0\uD478 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 504efb9e5c89caf4b966f2e7a7307eec, type: 3}
+    price: 0
+  - uuid: 100010028
+    itemName: "\uBD90\uBD90 \uB274\uD074\uB9AC\uC5B4 \uC9C0\uD321\uC774"
+    description: "\uC624\uC988 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 816d8ba79e724364983c5dc4b05ea90f, type: 3}
+    price: 0
+  - uuid: 100010029
+    itemName: "\uC624\uC5FC\uB41C \uC815\uC2E0"
+    description: "\uCF58\uC2A4\uD0C4\uD2B8 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 7f033f686513f6a479af0eb913269c16, type: 3}
+    price: 0
+  - uuid: 100010031
+    itemName: "\uC0AC\uC2E0\uC758 \uB0AB"
+    description: "\uB77C\uC784 \uC804\uC6A9\uBB34\uAE30"
+    sprite: {fileID: 21300000, guid: 039b6c39a9b25f947bb98b67c46d38db, type: 3}
+    price: 0
 --- !u!1 &1418156929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1903,6 +2162,9 @@ Transform:
   - {fileID: 2043456441}
   - {fileID: 1418156931}
   - {fileID: 795781772}
+  - {fileID: 337613532}
+  - {fileID: 1208693365}
+  - {fileID: 865317319}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
