@@ -6,21 +6,52 @@ public class ItemManager : MonoBehaviour
     [SerializeField]
     private List<ItemData> itemDataList;
 
-    public List<ItemData> GetItemData()
+    [SerializeField]
+    private List<ItemData> weaponItemDataList;
+
+    [SerializeField]
+    private List<ItemData> armorItemDataList;
+
+    public List<ItemData> GetWeaponItemData()
     {
-        if (itemDataList != null)
+        if (weaponItemDataList != null)
         {
-            return itemDataList;
+            return weaponItemDataList;
         }
 
-        GameUtils.Log("ItemData Null");
+        GameUtils.Log("Weapon ItemData Null");
 
         return null;
     }
 
-    public ItemData GetItemDataByUUID(int uuid)
+    public ItemData GetWeaponItemDataByUUID(int uuid)
     {
-        foreach (var item in itemDataList)
+        foreach (var item in weaponItemDataList)
+        {
+            if (item.uuid == uuid)
+            {
+                return item;
+            }
+        }
+
+        return null;
+    }
+
+    public List<ItemData> GetArmorItemData()
+    {
+        if (armorItemDataList != null)
+        {
+            return armorItemDataList;
+        }
+
+        GameUtils.Log("Armor ItemData Null");
+
+        return null;
+    }
+
+    public ItemData GetArmorItemDataByUUID(int uuid)
+    {
+        foreach (var item in armorItemDataList)
         {
             if (item.uuid == uuid)
             {

@@ -26,4 +26,9 @@ public class UI_Squad : MonoBehaviour
             _controller = GetComponent<UI_SquadScrollerController>();
         _controller.SetData();
     }
+
+    public void OnClick_Exit()
+    {
+        Core.Instance.uiPopUpManager.Hide("UI_Squad");
+    }
 }
