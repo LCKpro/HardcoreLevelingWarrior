@@ -4,15 +4,46 @@ using UnityEngine;
 
 public class CharacterManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private List<CharacterData> characterItemDataList;
+
+    public List<CharacterData> GetCharacterItemData()
     {
-        
+        if (characterItemDataList != null)
+        {
+            return characterItemDataList;
+        }
+
+        GameUtils.Log("CharacterData Null");
+
+        return null;
     }
 
-    // Update is called once per frame
-    void Update()
+    public CharacterData GetCharacterItemDataByIndex(int index)
     {
-        
+        if (characterItemDataList == null)
+        {
+            GameUtils.Log("CharacterData Null");
+            return null;
+        }
+
+        if (characterItemDataList.Count <= index)
+        {
+            GameUtils.Log("CharacterData Count Error");
+            return null;
+        }
+
+        return characterItemDataList[index];
     }
 }
+
+[System.Serializable]
+public class CharacterData
+{
+    public string characterName;
+    public string iconPath;
+    public string illerstrationPath;
+    public int atkStat = 150;
+    public int vitStat = 1500;
+}
+

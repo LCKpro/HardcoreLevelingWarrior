@@ -4,9 +4,6 @@ using UnityEngine;
 public class ItemManager : MonoBehaviour
 {
     [SerializeField]
-    private List<ItemData> itemDataList;
-
-    [SerializeField]
     private List<ItemData> weaponItemDataList;
 
     [SerializeField]
@@ -22,6 +19,23 @@ public class ItemManager : MonoBehaviour
         GameUtils.Log("Weapon ItemData Null");
 
         return null;
+    }
+
+    public ItemData GetWeaponItemDataByIndex(int index)
+    {
+        if (weaponItemDataList == null)
+        {
+            GameUtils.Log("Weapon ItemData Null");
+            return null;
+        }
+
+        if(weaponItemDataList.Count <= index)
+        {
+            GameUtils.Log("Weapon ItemData Count Error");
+            return null;
+        }
+
+        return weaponItemDataList[index];
     }
 
     public ItemData GetWeaponItemDataByUUID(int uuid)
@@ -49,6 +63,23 @@ public class ItemManager : MonoBehaviour
         return null;
     }
 
+    public ItemData GetArmorItemDataByIndex(int index)
+    {
+        if (armorItemDataList == null)
+        {
+            GameUtils.Log("Armor ItemData Null");
+            return null;
+        }
+
+        if (armorItemDataList.Count <= index)
+        {
+            GameUtils.Log("Armor ItemData Count Error");
+            return null;
+        }
+
+        return armorItemDataList[index];
+    }
+
     public ItemData GetArmorItemDataByUUID(int uuid)
     {
         foreach (var item in armorItemDataList)
@@ -71,4 +102,6 @@ public class ItemData
     public string description;
     public Sprite sprite;
     public int price;
+    public int atkValue = 150;
+    public int vitValue = 150;
 }
