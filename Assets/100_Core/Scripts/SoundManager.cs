@@ -40,6 +40,11 @@ public class SoundManager : MonoBehaviour
         bgmSource = GetComponent<AudioSource>();
     }
 
+    public void PlayUIButtonClickSound()
+    {
+        PlaySound("ButtonClick");
+    }
+
     public void PlaySound(string name)
     {
         Sound sound = GetSound(name);

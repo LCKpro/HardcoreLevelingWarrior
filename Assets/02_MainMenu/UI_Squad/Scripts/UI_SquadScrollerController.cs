@@ -90,7 +90,7 @@ public class UI_SquadScrollerController : MonoBehaviour, IEnhancedScrollerDelega
             Debug.Log("1 : " + charName);
             Debug.Log("2 : " + iller);
 
-            popup.SetSquad(new SquadInfo() { characterName = charName, illerstrationPath = iller });
+            popup.SetSquad(new SquadInfo() { index = 0, characterName = charName, illerstrationPath = iller });
         }
     }
 }

@@ -9,6 +9,9 @@ public class UI_Squad : MonoBehaviour
     public TextMeshProUGUI text_Name;
     public Image image_Illerstration;
 
+    public TextMeshProUGUI text_ATKValue;
+    public TextMeshProUGUI text_VITValue;
+
     void Start()
     {
     }
@@ -18,6 +21,10 @@ public class UI_Squad : MonoBehaviour
         text_Name.text = squadInfo.characterName;
         //image_Illerstration.sprite = Resources.Load<Sprite>(squadInfo.illerstrationPath);
         image_Illerstration.sprite = Resources.Load<Sprite>(squadInfo.illerstrationPath + "_0");
+
+        var info = Core.Instance.characterManager.GetCharacterItemDataByIndex(squadInfo.index);
+        text_ATKValue.text = info.atkStat.ToString();
+        text_VITValue.text = info.vitStat.ToString();
     }
 
     public void SetData()
@@ -29,6 +36,7 @@ public class UI_Squad : MonoBehaviour
 
     public void OnClick_Exit()
     {
+        SoundManager.instance.PlayUIButtonClickSound();
         Core.Instance.uiPopUpManager.Hide("UI_Squad");
     }
 }

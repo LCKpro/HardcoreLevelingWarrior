@@ -1921,9 +1921,9 @@ MonoBehaviour:
     atkValue: 150
     vitValue: 150
   - uuid: 100010031
-    itemName: "\uC0AC\uC2E0\uC758 \uB0AB"
+    itemName: "\uC0AC\uC2E0\uC758 \uB3C4\uB07C"
     description: "\uB77C\uC784 \uC804\uC6A9\uBB34\uAE30"
-    sprite: {fileID: 21300000, guid: 039b6c39a9b25f947bb98b67c46d38db, type: 3}
+    sprite: {fileID: 21300000, guid: 245131541bed73e4a81e606a07b2939f, type: 3}
     price: 0
     atkValue: 150
     vitValue: 150
@@ -2687,6 +2687,10 @@ MonoBehaviour:
   uiPopUpManager: {fileID: 1037548515}
   currencyManager: {fileID: 2043456442}
   cryptoManager: {fileID: 1418156930}
+  userSecureDataManager: {fileID: 795781773}
+  skillManager: {fileID: 337613533}
+  itemManager: {fileID: 1208693366}
+  characterManager: {fileID: 865317320}
 --- !u!1 &2043456440
 GameObject:
   m_ObjectHideFlags: 0

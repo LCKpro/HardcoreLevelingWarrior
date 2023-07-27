@@ -35,12 +35,13 @@ public class UI_SquadCellView : EnhancedScrollerCellView
     {
         SoundManager.instance.PlaySound("ButtonClick");
         var popup = Core.Instance.uiPopUpManager.Get<UI_Squad>("UI_Squad");
-        popup.SetSquad(new SquadInfo() { characterName = _characterName, illerstrationPath = _illerstrationPath });
+        popup.SetSquad(new SquadInfo() { index = _index, characterName = _characterName, illerstrationPath = _illerstrationPath });
     }
 }
 
 public class SquadInfo
 {
+    public int index;
     public string characterName;
     public string illerstrationPath;
 }

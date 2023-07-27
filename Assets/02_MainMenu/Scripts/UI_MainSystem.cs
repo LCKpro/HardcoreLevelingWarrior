@@ -10,7 +10,7 @@ public class UI_MainSystem : MonoBehaviour
     /// </summary>
     public void OnClick_Battle()
     {
-        SoundManager.instance.PlaySound("ButtonClick");
+        SoundManager.instance.PlayUIButtonClickSound();
         CryptoPlayerPrefs.SetString("route", "battle");
         SceneManager.LoadScene("01_Loading");
     }
@@ -20,7 +20,7 @@ public class UI_MainSystem : MonoBehaviour
     /// </summary>
     public void OnClick_ManageSquad()
     {
-        SoundManager.instance.PlaySound("ButtonClick");
+        SoundManager.instance.PlayUIButtonClickSound();
         var popup = Core.Instance.uiPopUpManager.ShowAndGet<UI_Squad>("UI_Squad");
         popup.SetData();
     }
@@ -30,7 +30,7 @@ public class UI_MainSystem : MonoBehaviour
     /// </summary>
     public void OnClick_Book()
     {
-        SoundManager.instance.PlaySound("ButtonClick");
+        SoundManager.instance.PlayUIButtonClickSound();
     }
 
     /// <summary>
@@ -38,6 +38,6 @@ public class UI_MainSystem : MonoBehaviour
     /// </summary>
     public void OnClick_Achievement()
     {
-        SoundManager.instance.PlaySound("ButtonClick");
+        SoundManager.instance.PlayUIButtonClickSound();
     }
 }

@@ -47,6 +47,10 @@ public partial class Core : MonoBehaviour
     public UIPopUpManager uiPopUpManager;
     public CurrencyManager currencyManager;
     public CryptoManager cryptoManager;
+    public UserSecureDataManager userSecureDataManager;
+    public SkillManager skillManager;
+    public ItemManager itemManager;
+    public CharacterManager characterManager;
 
     /// <summary>
     /// Init Logic
