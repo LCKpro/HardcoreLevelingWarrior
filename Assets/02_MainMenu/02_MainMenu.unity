@@ -1020,7 +1020,7 @@ MonoBehaviour:
   - characterName: "\uC5F4\uB819\uC804\uC0AC"
     iconPath: Icons/Icon_Character_001
     illerstrationPath: Illerstration/Illerstration_Character_001
-    atkStat: 250
+    atkStat: 200
     vitStat: 2000
   - characterName: "\uD5E4\uB9AC\uC544\uCE58"
     iconPath: Icons/Icon_Character_002
@@ -1070,8 +1070,8 @@ MonoBehaviour:
   - characterName: "\uC9C0\uC874\uAC80\uC0AC"
     iconPath: Icons/Icon_Character_011
     illerstrationPath: Illerstration/Illerstration_Character_011
-    atkStat: 150
-    vitStat: 1500
+    atkStat: 180
+    vitStat: 1700
   - characterName: "\uB808\uB514\uB098\uC774\uC544"
     iconPath: Icons/Icon_Character_012
     illerstrationPath: Illerstration/Illerstration_Character_012
@@ -1080,33 +1080,33 @@ MonoBehaviour:
   - characterName: "\uAE40\uBE44\uC11C"
     iconPath: Icons/Icon_Character_013
     illerstrationPath: Illerstration/Illerstration_Character_013
-    atkStat: 200
-    vitStat: 1000
+    atkStat: 170
+    vitStat: 1200
   - characterName: "\uC81C\uB85C"
     iconPath: Icons/Icon_Character_014
     illerstrationPath: Illerstration/Illerstration_Character_014
-    atkStat: 200
-    vitStat: 1000
+    atkStat: 170
+    vitStat: 1200
   - characterName: "\uC8FD\uCC3D\uB9E8"
     iconPath: Icons/Icon_Character_015
     illerstrationPath: Illerstration/Illerstration_Character_015
-    atkStat: 200
-    vitStat: 1000
+    atkStat: 170
+    vitStat: 1200
   - characterName: "\uB178\uB124\uC784"
     iconPath: Icons/Icon_Character_016
     illerstrationPath: Illerstration/Illerstration_Character_016
     atkStat: 200
-    vitStat: 1000
+    vitStat: 1500
   - characterName: "\uC5EC\uD3EC"
     iconPath: Icons/Icon_Character_017
     illerstrationPath: Illerstration/Illerstration_Character_017
-    atkStat: 250
-    vitStat: 1000
+    atkStat: 220
+    vitStat: 1200
   - characterName: "\uC544\uADC0"
     iconPath: Icons/Icon_Character_018
     illerstrationPath: Illerstration/Illerstration_Character_018
     atkStat: 150
-    vitStat: 1500
+    vitStat: 1200
   - characterName: "\uC544\uB974\uBA54\uC2A4"
     iconPath: Icons/Icon_Character_019
     illerstrationPath: Illerstration/Illerstration_Character_019
@@ -1130,18 +1130,18 @@ MonoBehaviour:
   - characterName: "\uB9AC\uACE0\uC2A4"
     iconPath: Icons/Icon_Character_023
     illerstrationPath: Illerstration/Illerstration_Character_023
-    atkStat: 200
+    atkStat: 180
     vitStat: 900
   - characterName: "\uC0C8\uB4DC\uC2A4\uB9C8\uC77C"
     iconPath: Icons/Icon_Character_024
     illerstrationPath: Illerstration/Illerstration_Character_024
-    atkStat: 200
+    atkStat: 180
     vitStat: 900
   - characterName: "\uB2E4\uD06C"
     iconPath: Icons/Icon_Character_025
     illerstrationPath: Illerstration/Illerstration_Character_025
-    atkStat: 200
-    vitStat: 900
+    atkStat: 180
+    vitStat: 1100
   - characterName: "\uCD08\uCF54\uBE44\uBE44"
     iconPath: Icons/Icon_Character_026
     illerstrationPath: Illerstration/Illerstration_Character_026
@@ -1150,22 +1150,22 @@ MonoBehaviour:
   - characterName: "\uD478\uC6B0\uD478"
     iconPath: Icons/Icon_Character_027
     illerstrationPath: Illerstration/Illerstration_Character_027
-    atkStat: 200
+    atkStat: 180
     vitStat: 900
   - characterName: "\uC624\uC988"
     iconPath: Icons/Icon_Character_028
     illerstrationPath: Illerstration/Illerstration_Character_028
-    atkStat: 200
+    atkStat: 180
     vitStat: 900
   - characterName: "\uCF58\uC2A4\uD0C4\uD2B8"
     iconPath: Icons/Icon_Character_029
     illerstrationPath: Illerstration/Illerstration_Character_029
-    atkStat: 200
+    atkStat: 180
     vitStat: 900
   - characterName: "\uD55C\uAC74\uD638"
     iconPath: Icons/Icon_Character_030
     illerstrationPath: Illerstration/Illerstration_Character_030
-    atkStat: 200
+    atkStat: 180
     vitStat: 900
   - characterName: "\uB77C\uC784"
     iconPath: Icons/Icon_Character_031
@@ -1175,7 +1175,7 @@ MonoBehaviour:
   - characterName: "\uC54C\uD30C\uCE74\uB9E8"
     iconPath: Icons/Icon_Character_032
     illerstrationPath: Illerstration/Illerstration_Character_032
-    atkStat: 100
+    atkStat: 75
     vitStat: 1200
   - characterName: "\uD55C\uC218\uC544"
     iconPath: Icons/Icon_Character_033
@@ -1732,9 +1732,9 @@ MonoBehaviour:
     atkValue: 150
     vitValue: 150
   - uuid: 100010004
-    itemName: "\uD2F0\uBBF8 \uBB34\uAE30"
+    itemName: "\uBAA9\uC218\uC758 \uB9DD\uCE58"
     description: "\uD2F0\uBBF8 \uC804\uC6A9\uBB34\uAE30"
-    sprite: {fileID: 21300000, guid: 3b1473c8473e07e4895d6b194a9061ac, type: 3}
+    sprite: {fileID: 21300000, guid: b9283c8020f5c754f82b5b4832c6c5ed, type: 3}
     price: 0
     atkValue: 150
     vitValue: 150
