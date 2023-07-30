@@ -3832,10 +3832,10 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_004
     atkValue: 150
     vitValue: 1500
-    skill_Title_0: "\uBC30\uC26C"
+    skill_Title_0: "\uCD94\uC9C4\uB825"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_007
-    skill_Title_1: "\uD2F0\uBBF8!"
+    skill_IconPath_0: Icons/Icon_Skill_048
+    skill_Title_1: "\uACF5\uACA9\uD574 \uD2F0\uBBF8!"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
     skill_IconPath_1: Icons/Icon_Skill_066
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
@@ -3853,12 +3853,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_005
     atkValue: 100
     vitValue: 2000
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uB354\uBE14 \uBC30\uC26C"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_007
+    skill_Title_1: "\uC5D0\uACE0\uC18C\uB4DC : \uBD80\uC234 \uBA39\uC774\uAE30"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_067
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -3874,10 +3874,10 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_006
     atkValue: 150
     vitValue: 1500
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC6A9\uAE30\uC0AC\uC758 \uC77C\uACA9"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_015
+    skill_Title_1: "\uC6A9\uAC80\uC220 : \uB4DC\uB798\uACE4 \uBE0C\uB808\uC2A4"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
     skill_IconPath_1: Icons/Icon_Skill_071
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
@@ -3895,12 +3895,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_007
     atkValue: 150
     vitValue: 1500
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC9C0\uBA74 \uAC00\uB974\uAE30"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_009
+    skill_Title_1: "\uC804\uD22C\uC2E0\uC758 \uBD84\uB178"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_069
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -3916,12 +3916,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_008
     atkValue: 150
     vitValue: 1500
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC77C\uC810\uC0AC"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_029
+    skill_Title_1: "\uC804\uC7C1\uAD11\uC758 \uBD84\uB178"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_070
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -3937,10 +3937,10 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_009
     atkValue: 150
     vitValue: 1500
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC655\uC758 \uC678\uCE68"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_002
+    skill_Title_1: "\uC6B4\uBA85\uC758 \uAC80"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
     skill_IconPath_1: Icons/Icon_Skill_071
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
@@ -3958,10 +3958,10 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_010
     atkValue: 150
     vitValue: 1500
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uACE0\uAE30 \uB2E4\uC9C0\uAE30"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_008
+    skill_Title_1: "\uACE0\uAE30 \uC370\uAE30"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
     skill_IconPath_1: Icons/Icon_Skill_071
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
@@ -3979,10 +3979,10 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_011
     atkValue: 180
     vitValue: 1700
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC6D4\uAD11\uC12C"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_026
+    skill_Title_1: "\uC218\uB8E1\uD30C"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
     skill_IconPath_1: Icons/Icon_Skill_071
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
@@ -4000,10 +4000,10 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_012
     atkValue: 150
     vitValue: 1500
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uD5C8\uB9AC\uCF00\uC778 \uC7BD"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
     skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_Title_1: "\uC6A9\uC544"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
     skill_IconPath_1: Icons/Icon_Skill_071
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
@@ -4021,12 +4021,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_013
     atkValue: 170
     vitValue: 1200
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uCC9C\uAC1C\uC758 \uCC3D"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_014
+    skill_Title_1: "\uD558\uB298\uC758 \uBD80\uB984\uC744 \uC804\uD558\uB294 \uCC3D"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_076
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4042,12 +4042,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_014
     atkValue: 200
     vitValue: 1200
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC545\uBABD\uD654"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_006
+    skill_Title_1: "\uC2E0\uC0B4\uC758 \uAC80"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_077
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4063,12 +4063,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_015
     atkValue: 170
     vitValue: 1200
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC8FD\uCC3D \uB298\uB9AC\uAE30"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_042
+    skill_Title_1: "\uAC15\uC790\uC758 \uD3EC\uC2DD"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_078
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4084,12 +4084,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_016
     atkValue: 200
     vitValue: 1500
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uD30C\uC774\uC624\uB2C8\uC544 \uC2AC\uB798\uC26C"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_016
+    skill_Title_1: "\uBC1C\uACAC\uC790\uC758 \uD568\uD3EC"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_079
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4105,12 +4105,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_017
     atkValue: 220
     vitValue: 1200
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uCC3D \uD718\uB450\uB974\uAE30"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_053
+    skill_Title_1: "\uAC15\uAE30 \uBC29\uCD9C"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_080
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4126,12 +4126,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_018
     atkValue: 150
     vitValue: 1200
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
-    skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
-    skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_Title_0: "\uBBF8\uACF5\uAC1C"
+    skill_Desc_0: "\uC900\uBE44 \uC911\uC785\uB2C8\uB2E4."
+    skill_IconPath_0: Icons/Icon_Skill_001
+    skill_Title_1: "\uBBF8\uACF5\uAC1C"
+    skill_Desc_1: "\uC900\uBE44 \uC911\uC785\uB2C8\uB2E4."
+    skill_IconPath_1: Icons/Icon_Skill_001
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4147,12 +4147,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_019
     atkValue: 200
     vitValue: 1000
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uBA38\uC2A4\uCEA3 \uC0F7"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_010
+    skill_Title_1: "\uCD9C\uD56D! \uC0B0\uD0C0\uB9C8\uB9AC\uC544\uD638"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_081
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4168,12 +4168,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_020
     atkValue: 250
     vitValue: 750
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uAFF0\uB6AB\uB294 \uCC3D"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_012
+    skill_Title_1: "\uC800\uC8FC\uC758 \uBE44"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_082
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4189,12 +4189,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_022
     atkValue: 250
     vitValue: 750
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uD5E4\uB4DC\uC0F7"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_011
+    skill_Title_1: "\uC804\uD22C\uCC9C\uC0AC \uD3ED\uACA9"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_083
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4210,12 +4210,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_023
     atkValue: 250
     vitValue: 1200
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uD640\uB9AC \uB77C\uC774\uD2B8"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_036
+    skill_Title_1: "\uB2E4\uC911 \uC12C\uAD11"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_084
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4231,12 +4231,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_024
     atkValue: 180
     vitValue: 900
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uD504\uB85C\uC98C \uC0F7"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_037
+    skill_Title_1: "\uBE14\uB9AC\uC790\uB4DC"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_085
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4252,12 +4252,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_025
     atkValue: 180
     vitValue: 900
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC545\uBABD\uC758 \uC18D\uC0AD\uC778"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_025
+    skill_Title_1: "\uC800\uC8FC\uC758 \uAD6C\uCCB4"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_086
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4273,12 +4273,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_026
     atkValue: 180
     vitValue: 1100
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uBF08 \uACE8\uB818 \uC18C\uD658"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_034
+    skill_Title_1: "\uB9C8\uC871\uD654"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_087
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4294,12 +4294,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_027
     atkValue: 200
     vitValue: 900
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uB9C8\uB098\uAC00 \uB2F4\uAE34 \uAC80\uAE30"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_019
+    skill_Title_1: "\uB2E4\uC911 \uC21C\uAC04\uC774\uB3D9"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_088
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4315,12 +4315,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_028
     atkValue: 180
     vitValue: 900
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC5B8\uB370\uB4DC \uC18C\uD658"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_063
+    skill_Title_1: "\uBE14\uB7EC\uB4DC \uACE8\uB818"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_089
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4336,10 +4336,10 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_029
     atkValue: 180
     vitValue: 900
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uBD90\uBD90\uD0C4"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_035
+    skill_Title_1: "\uD30C\uC774\uC5B4 \uB4DC\uB798\uACE4 \uBE0C\uB808\uC2A4"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
     skill_IconPath_1: Icons/Icon_Skill_071
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
@@ -4357,12 +4357,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_030
     atkValue: 180
     vitValue: 900
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC545\uBABD\uC758 \uC18D\uC0AD\uC784"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_025
+    skill_Title_1: "\uC2E0\uC744 \uC18D\uC774\uB294 \uAC70\uC9D3\uB9D0"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_091
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4378,12 +4378,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_031
     atkValue: 180
     vitValue: 900
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC545\uBABD\uC758 \uC18D\uC0AD\uC784"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_025
+    skill_Title_1: "\uAD6C\uC18D"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_092
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4399,12 +4399,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_032
     atkValue: 75
     vitValue: 900
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC2AC\uB77C\uC784 \uD3ED\uBC1C"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_022
+    skill_Title_1: "\uC778\uD050\uBCA0\uC774\uD130"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_093
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4420,12 +4420,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_033
     atkValue: 75
     vitValue: 1200
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uC5D0\uB108\uC9C0 \uC8FC\uC785"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_023
+    skill_Title_1: "\uD638\uD638\uC774\uC548 \uD1A0\uD15C"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_094
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4441,12 +4441,12 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_034
     atkValue: 75
     vitValue: 900
-    skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
+    skill_Title_0: "\uBE14\uB808\uC2F1"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
-    skill_Title_1: "\uC6D4\uAD11\uC12C \uD1A0\uB124\uC774\uB3C4"
+    skill_IconPath_0: Icons/Icon_Skill_021
+    skill_Title_1: "\uC790\uBCF8\uC758 \uCD95\uBCF5"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_095
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
