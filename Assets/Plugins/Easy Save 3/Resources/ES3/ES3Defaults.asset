@@ -32,6 +32,8 @@ MonoBehaviour:
     - Assembly-CSharp-firstpass
     - Assembly-CSharp
     - EnhancedScroller_asmdef
+    - UniRx
+    - UniRx.Examples
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

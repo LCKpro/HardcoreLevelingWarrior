@@ -54,6 +54,9 @@ public class LoadingManager : MonoBehaviour
             case "title":
                 _async_Title = SceneManager.LoadSceneAsync("Title", LoadSceneMode.Single);
                 break;
+            case "story":
+                _async_Title = SceneManager.LoadSceneAsync("04_Story", LoadSceneMode.Single);
+                break;
             default:
                 break;
         }

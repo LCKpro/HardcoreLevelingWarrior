@@ -32,7 +32,7 @@ public class UI_MainSystem : MonoBehaviour
     public void OnClick_SelectStory()
     {
         SoundManager.instance.PlayUIButtonClickSound();
-        CryptoPlayerPrefs.SetString("route", "battle");
+        CryptoPlayerPrefs.SetString("route", "story");
         SceneManager.LoadScene("01_Loading");
     }
 

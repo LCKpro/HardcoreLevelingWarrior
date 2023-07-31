@@ -187,7 +187,7 @@ TextureImporter:
         width: 68
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,6 +195,69 @@ TextureImporter:
       bones: []
       spriteID: 5225a187a09105b479013ce8fdf2ac41
       internalID: 14711495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_VS
+      rect:
+        serializedVersion: 2
+        x: 2890
+        y: 476
+        width: 157
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46140d9c21ded04c803f0e50d5d8877
+      internalID: 725867612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Frame_Flag_1
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 346
+        width: 150
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6040a9c8aa7a63439add756baa2ec81
+      internalID: -1858558777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Frame_Flag_2
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 0
+        width: 150
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d687a17f7610c4443845dbe9e58f2b44
+      internalID: 192528079
       vertices: []
       indices: 
       edges: []
@@ -211,8 +274,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       UI_Frame_Character: 14711495
+      UI_Frame_Flag_2: 192528079
       Frame_5: 1116057351
+      UI_Frame_Flag_1: -1858558777
       UI_Frame_Top: 1287863984
+      UI_VS: 725867612
       UI_Frame_Skill: 1918777285
   spritePackingTag: 
   pSDRemoveMatte: 0
