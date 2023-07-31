@@ -29,10 +29,10 @@ MonoBehaviour:
     referenceMode: 2
     serializationDepthLimit: 64
     assemblyNames:
+    - UniRx
     - Assembly-CSharp-firstpass
     - Assembly-CSharp
     - EnhancedScroller_asmdef
-    - UniRx
     - UniRx.Examples
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0

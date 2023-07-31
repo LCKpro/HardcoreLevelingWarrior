@@ -12,10 +12,6 @@ public class UI_Squad : MonoBehaviour
     public TextMeshProUGUI text_ATKValue;
     public TextMeshProUGUI text_VITValue;
 
-    void Start()
-    {
-    }
-
     public void SetSquad(SquadInfo squadInfo)
     {
         text_Name.text = squadInfo.characterName;

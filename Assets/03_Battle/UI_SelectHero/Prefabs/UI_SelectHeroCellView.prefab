@@ -87,8 +87,9 @@ GameObject:
   - component: {fileID: 5309021598678858330}
   - component: {fileID: 5309021598678858328}
   - component: {fileID: 5309021598678858331}
+  - component: {fileID: 6646673673437729620}
   m_Layer: 5
-  m_Name: Frame_Flag
+  m_Name: UI_SelectHeroCellView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,3 +154,17 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6646673673437729620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5309021598678858325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7309da7741bd447a49213158b5cf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellIdentifier: 
+  flag_Squad: {fileID: 5309021597776534822}
