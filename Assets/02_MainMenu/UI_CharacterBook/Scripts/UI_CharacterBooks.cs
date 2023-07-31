@@ -23,10 +23,6 @@ public class UI_CharacterBooks : MonoBehaviour
 
     public TextMeshProUGUI text_CharacterBGDesc;
 
-    void Start()
-    {
-    }
-
     private string illerstCode = "";
 
     public void SetCharacterBook(int index)

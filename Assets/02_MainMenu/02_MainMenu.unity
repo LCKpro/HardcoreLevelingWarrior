@@ -1102,11 +1102,6 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_017
     atkStat: 220
     vitStat: 1200
-  - characterName: "\uC544\uADC0"
-    iconPath: Icons/Icon_Character_018
-    illerstrationPath: Illerstration/Illerstration_Character_018
-    atkStat: 150
-    vitStat: 1200
   - characterName: "\uC544\uB974\uBA54\uC2A4"
     iconPath: Icons/Icon_Character_019
     illerstrationPath: Illerstration/Illerstration_Character_019
@@ -2825,7 +2820,7 @@ PrefabInstance:
     - target: {fileID: 5531935205040522169, guid: 39da74b6a08471143b98ba850e9b871a,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -15
+      value: -15.000122
       objectReference: {fileID: 0}
     - target: {fileID: 5531935205040522169, guid: 39da74b6a08471143b98ba850e9b871a,
         type: 3}
