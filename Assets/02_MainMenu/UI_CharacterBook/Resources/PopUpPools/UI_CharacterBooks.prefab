@@ -1481,9 +1481,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &2439644790795452165
 GameObject:
@@ -1787,7 +1787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -684, y: 129}
+  m_AnchoredPosition: {x: -721, y: 155}
   m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8235762305556684245
@@ -2165,7 +2165,6 @@ GameObject:
   - component: {fileID: 275459937638167965}
   - component: {fileID: 4443690809986444091}
   - component: {fileID: 7648886288609310601}
-  - component: {fileID: 3129963921971432191}
   m_Layer: 5
   m_Name: Image_Portrait
   m_TagString: Untagged
@@ -2188,10 +2187,10 @@ RectTransform:
   m_Father: {fileID: 7767677872595687226}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -191, y: 425}
-  m_SizeDelta: {x: 1536, y: 852}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -240, y: -143}
+  m_SizeDelta: {x: -482.90503, y: -284.315}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4443690809986444091
 CanvasRenderer:
@@ -2231,26 +2230,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!95 &3129963921971432191
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3716396514490808182}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 062b5d871ea97a5419e7c5ca6697a26f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3771470656971570703
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,7 +2380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -884, y: 270}
+  m_AnchoredPosition: {x: -921, y: 296}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &6215098155992588719
@@ -2693,7 +2672,7 @@ GameObject:
   - component: {fileID: 8214984721832240575}
   - component: {fileID: 5086622542667869441}
   m_Layer: 5
-  m_Name: Text_Skill
+  m_Name: Text_Desc_Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2853,7 +2832,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 400, y: 350}
+  m_SizeDelta: {x: 420, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2948585326558872394
 CanvasRenderer:
@@ -2911,21 +2890,21 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_wordSpacing: 5
+  m_lineSpacing: 20
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: 10
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
@@ -3063,8 +3042,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UI_Squad, Assembly-CSharp
+      - m_Target: {fileID: 3992251470370433499}
+        m_TargetAssemblyTypeName: UI_CharacterBooks, Assembly-CSharp
         m_MethodName: OnClick_Exit
         m_Mode: 1
         m_Arguments:
@@ -3410,6 +3389,7 @@ RectTransform:
   - {fileID: 3030376707577618824}
   - {fileID: 8611230695736581}
   - {fileID: 6590809174938242538}
+  - {fileID: 2719482635009861116}
   m_Father: {fileID: 6732787171538754173}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3592,6 +3572,142 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &8212839400662915559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8688414867656721743}
+  - component: {fileID: 5246492208893994818}
+  - component: {fileID: 581254965677029567}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8688414867656721743
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8212839400662915559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2719482635009861116}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 2.5}
+  m_SizeDelta: {x: 180, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5246492208893994818
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8212839400662915559}
+  m_CullTransparentMesh: 1
+--- !u!114 &581254965677029567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8212839400662915559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\uAC01\uC131\nOn/Off"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5b96cc08684ee5f4b85df07b56ca3e69, type: 2}
+  m_sharedMaterial: {fileID: -5037428671239289597, guid: 5b96cc08684ee5f4b85df07b56ca3e69,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &8231002747058740563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,6 +3830,141 @@ MonoBehaviour:
   image_SkillIcon_0: {fileID: 5418191262655754600}
   image_SkillIcon_1: {fileID: 1008413567372129300}
   text_CharacterBGDesc: {fileID: 2211325674433829638}
+--- !u!1 &8897790259712408023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2719482635009861116}
+  - component: {fileID: 728586129506103022}
+  - component: {fileID: 3952453135207590808}
+  - component: {fileID: 1346976998431456087}
+  m_Layer: 5
+  m_Name: Btn_Awaken
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2719482635009861116
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8897790259712408023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8688414867656721743}
+  m_Father: {fileID: 1372989665450990027}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 330, y: 322}
+  m_SizeDelta: {x: 200, y: 120}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &728586129506103022
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8897790259712408023}
+  m_CullTransparentMesh: 1
+--- !u!114 &3952453135207590808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8897790259712408023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 2271878874463416273, guid: 238bf3b11c15e7749bab34c0eefb0592,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1346976998431456087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8897790259712408023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 3952453135207590808}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3992251470370433499}
+        m_TargetAssemblyTypeName: UI_CharacterBooks, Assembly-CSharp
+        m_MethodName: OnClick_ChangeAwakenIllerst
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9009011318242055932
 GameObject:
   m_ObjectHideFlags: 0
@@ -3766,7 +4017,7 @@ MonoBehaviour:
   characterDataList:
   - index: 0
     characterName: "\uC5F4\uB819\uC804\uC0AC"
-    illerstrationPath: Illerstration/Illerstration_Character_001
+    illerstrationPath: Illerstration/Illerstration_Character_000
     atkValue: 200
     vitValue: 2000
     skill_Title_0: "\uD5EC\uD30C\uC774\uC5B4"
@@ -3787,7 +4038,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 1
     characterName: "\uD5E4\uB9AC\uC544\uCE58"
-    illerstrationPath: Illerstration/Illerstration_Character_002
+    illerstrationPath: Illerstration/Illerstration_Character_001
     atkValue: 100
     vitValue: 2000
     skill_Title_0: "\uC0AC\uC790\uC758 \uD3EC\uD6A8"
@@ -3808,7 +4059,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 2
     characterName: "\uD401\uB2F9\uC2A4\uD504"
-    illerstrationPath: Illerstration/Illerstration_Character_003
+    illerstrationPath: Illerstration/Illerstration_Character_002
     atkValue: 100
     vitValue: 2000
     skill_Title_0: "\uAC15\uCCA0 \uC2E0\uACBD"
@@ -3829,7 +4080,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 3
     characterName: "\uD2F0\uBBF8\uC640 \uBC14\uC26C"
-    illerstrationPath: Illerstration/Illerstration_Character_004
+    illerstrationPath: Illerstration/Illerstration_Character_003
     atkValue: 150
     vitValue: 1500
     skill_Title_0: "\uCD94\uC9C4\uB825"
@@ -3850,7 +4101,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 4
     characterName: "\uC18C\uB77C"
-    illerstrationPath: Illerstration/Illerstration_Character_005
+    illerstrationPath: Illerstration/Illerstration_Character_004
     atkValue: 100
     vitValue: 2000
     skill_Title_0: "\uB354\uBE14 \uBC30\uC26C"
@@ -3871,7 +4122,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 5
     characterName: "\uD558\uD2B8\uD788\uD130"
-    illerstrationPath: Illerstration/Illerstration_Character_006
+    illerstrationPath: Illerstration/Illerstration_Character_005
     atkValue: 150
     vitValue: 1500
     skill_Title_0: "\uC6A9\uAE30\uC0AC\uC758 \uC77C\uACA9"
@@ -3879,7 +4130,7 @@ MonoBehaviour:
     skill_IconPath_0: Icons/Icon_Skill_015
     skill_Title_1: "\uC6A9\uAC80\uC220 : \uB4DC\uB798\uACE4 \uBE0C\uB808\uC2A4"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_068
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -3892,7 +4143,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 6
     characterName: "\uC288\uBE0C"
-    illerstrationPath: Illerstration/Illerstration_Character_007
+    illerstrationPath: Illerstration/Illerstration_Character_006
     atkValue: 150
     vitValue: 1500
     skill_Title_0: "\uC9C0\uBA74 \uAC00\uB974\uAE30"
@@ -3913,7 +4164,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 7
     characterName: "\uB370\uC774\uCEE8"
-    illerstrationPath: Illerstration/Illerstration_Character_008
+    illerstrationPath: Illerstration/Illerstration_Character_007
     atkValue: 150
     vitValue: 1500
     skill_Title_0: "\uC77C\uC810\uC0AC"
@@ -3934,7 +4185,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 8
     characterName: "\uD55C\uC131\uACF5"
-    illerstrationPath: Illerstration/Illerstration_Character_009
+    illerstrationPath: Illerstration/Illerstration_Character_008
     atkValue: 150
     vitValue: 1500
     skill_Title_0: "\uC655\uC758 \uC678\uCE68"
@@ -3942,7 +4193,7 @@ MonoBehaviour:
     skill_IconPath_0: Icons/Icon_Skill_002
     skill_Title_1: "\uC6B4\uBA85\uC758 \uAC80"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_072
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -3955,7 +4206,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 9
     characterName: "\uB9AC\uB77C"
-    illerstrationPath: Illerstration/Illerstration_Character_010
+    illerstrationPath: Illerstration/Illerstration_Character_009
     atkValue: 150
     vitValue: 1500
     skill_Title_0: "\uACE0\uAE30 \uB2E4\uC9C0\uAE30"
@@ -3963,7 +4214,7 @@ MonoBehaviour:
     skill_IconPath_0: Icons/Icon_Skill_008
     skill_Title_1: "\uACE0\uAE30 \uC370\uAE30"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_073
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -3976,7 +4227,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 10
     characterName: "\uC9C0\uC874\uAC80\uC0AC"
-    illerstrationPath: Illerstration/Illerstration_Character_011
+    illerstrationPath: Illerstration/Illerstration_Character_010
     atkValue: 180
     vitValue: 1700
     skill_Title_0: "\uC6D4\uAD11\uC12C"
@@ -3984,7 +4235,7 @@ MonoBehaviour:
     skill_IconPath_0: Icons/Icon_Skill_026
     skill_Title_1: "\uC218\uB8E1\uD30C"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_074
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -3997,15 +4248,15 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 11
     characterName: "\uB808\uB514\uB098\uC774\uC544"
-    illerstrationPath: Illerstration/Illerstration_Character_012
+    illerstrationPath: Illerstration/Illerstration_Character_011
     atkValue: 150
     vitValue: 1500
     skill_Title_0: "\uD5C8\uB9AC\uCF00\uC778 \uC7BD"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
-    skill_IconPath_0: Icons/Icon_Skill_017
+    skill_IconPath_0: Icons/Icon_Skill_030
     skill_Title_1: "\uC6A9\uC544"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_075
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4018,7 +4269,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 12
     characterName: "\uAE40\uBE44\uC11C"
-    illerstrationPath: Illerstration/Illerstration_Character_013
+    illerstrationPath: Illerstration/Illerstration_Character_012
     atkValue: 170
     vitValue: 1200
     skill_Title_0: "\uCC9C\uAC1C\uC758 \uCC3D"
@@ -4039,7 +4290,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 13
     characterName: "\uC81C\uB85C"
-    illerstrationPath: Illerstration/Illerstration_Character_014
+    illerstrationPath: Illerstration/Illerstration_Character_013
     atkValue: 200
     vitValue: 1200
     skill_Title_0: "\uC545\uBABD\uD654"
@@ -4060,7 +4311,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 14
     characterName: "\uC8FD\uCC3D\uB9E8"
-    illerstrationPath: Illerstration/Illerstration_Character_015
+    illerstrationPath: Illerstration/Illerstration_Character_014
     atkValue: 170
     vitValue: 1200
     skill_Title_0: "\uC8FD\uCC3D \uB298\uB9AC\uAE30"
@@ -4081,7 +4332,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 15
     characterName: "\uB178\uB124\uC784"
-    illerstrationPath: Illerstration/Illerstration_Character_016
+    illerstrationPath: Illerstration/Illerstration_Character_015
     atkValue: 200
     vitValue: 1500
     skill_Title_0: "\uD30C\uC774\uC624\uB2C8\uC544 \uC2AC\uB798\uC26C"
@@ -4102,7 +4353,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 16
     characterName: "\uC5EC\uD3EC"
-    illerstrationPath: Illerstration/Illerstration_Character_017
+    illerstrationPath: Illerstration/Illerstration_Character_016
     atkValue: 220
     vitValue: 1200
     skill_Title_0: "\uCC3D \uD718\uB450\uB974\uAE30"
@@ -4123,7 +4374,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 17
     characterName: "\uC544\uB974\uBA54\uC2A4"
-    illerstrationPath: Illerstration/Illerstration_Character_019
+    illerstrationPath: Illerstration/Illerstration_Character_017
     atkValue: 200
     vitValue: 1000
     skill_Title_0: "\uBA38\uC2A4\uCEA3 \uC0F7"
@@ -4144,10 +4395,10 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 18
     characterName: "\uCFC4"
-    illerstrationPath: Illerstration/Illerstration_Character_020
+    illerstrationPath: Illerstration/Illerstration_Character_018
     atkValue: 250
     vitValue: 750
-    skill_Title_0: "\uAFF0\uB6AB\uB294 \uCC3D"
+    skill_Title_0: "\uAFF0\uB6AB\uB294 \uD654\uC0B4"
     skill_Desc_0: "\uC2A4\uD0AC 1 \uC124\uBA85"
     skill_IconPath_0: Icons/Icon_Skill_012
     skill_Title_1: "\uC800\uC8FC\uC758 \uBE44"
@@ -4165,7 +4416,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 19
     characterName: "\uD15C\uD398\uC2A4\uD2B8"
-    illerstrationPath: Illerstration/Illerstration_Character_022
+    illerstrationPath: Illerstration/Illerstration_Character_019
     atkValue: 250
     vitValue: 750
     skill_Title_0: "\uD5E4\uB4DC\uC0F7"
@@ -4186,7 +4437,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 20
     characterName: "\uB77C\uC774\uD2B8"
-    illerstrationPath: Illerstration/Illerstration_Character_023
+    illerstrationPath: Illerstration/Illerstration_Character_020
     atkValue: 250
     vitValue: 1200
     skill_Title_0: "\uD640\uB9AC \uB77C\uC774\uD2B8"
@@ -4207,7 +4458,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 21
     characterName: "\uB9AC\uACE0\uC2A4"
-    illerstrationPath: Illerstration/Illerstration_Character_024
+    illerstrationPath: Illerstration/Illerstration_Character_021
     atkValue: 180
     vitValue: 900
     skill_Title_0: "\uD504\uB85C\uC98C \uC0F7"
@@ -4228,7 +4479,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 22
     characterName: "\uC0C8\uB4DC\uC2A4\uB9C8\uC77C"
-    illerstrationPath: Illerstration/Illerstration_Character_025
+    illerstrationPath: Illerstration/Illerstration_Character_022
     atkValue: 180
     vitValue: 900
     skill_Title_0: "\uC545\uBABD\uC758 \uC18D\uC0AD\uC778"
@@ -4249,7 +4500,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 23
     characterName: "\uB2E4\uD06C"
-    illerstrationPath: Illerstration/Illerstration_Character_026
+    illerstrationPath: Illerstration/Illerstration_Character_023
     atkValue: 180
     vitValue: 1100
     skill_Title_0: "\uBF08 \uACE8\uB818 \uC18C\uD658"
@@ -4270,7 +4521,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 24
     characterName: "\uCD08\uCF54\uBE44\uBE44"
-    illerstrationPath: Illerstration/Illerstration_Character_027
+    illerstrationPath: Illerstration/Illerstration_Character_024
     atkValue: 200
     vitValue: 900
     skill_Title_0: "\uB9C8\uB098\uAC00 \uB2F4\uAE34 \uAC80\uAE30"
@@ -4291,7 +4542,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 25
     characterName: "\uD478\uC6B0\uD478"
-    illerstrationPath: Illerstration/Illerstration_Character_028
+    illerstrationPath: Illerstration/Illerstration_Character_025
     atkValue: 180
     vitValue: 900
     skill_Title_0: "\uC5B8\uB370\uB4DC \uC18C\uD658"
@@ -4312,7 +4563,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 26
     characterName: "\uC624\uC988"
-    illerstrationPath: Illerstration/Illerstration_Character_029
+    illerstrationPath: Illerstration/Illerstration_Character_026
     atkValue: 180
     vitValue: 900
     skill_Title_0: "\uBD90\uBD90\uD0C4"
@@ -4320,7 +4571,7 @@ MonoBehaviour:
     skill_IconPath_0: Icons/Icon_Skill_035
     skill_Title_1: "\uD30C\uC774\uC5B4 \uB4DC\uB798\uACE4 \uBE0C\uB808\uC2A4"
     skill_Desc_1: "\uC2A4\uD0AC 2 \uC124\uBA85"
-    skill_IconPath_1: Icons/Icon_Skill_071
+    skill_IconPath_1: Icons/Icon_Skill_090
     characterBGDesc: "\uB8E8\uC2DC\uB4DC \uC5B4\uB4DC\uBCA4\uCC98\uB77C\uB294 \uAC00\uC0C1\uD604\uC2E4
       \uAC8C\uC784\uC5D0\uC11C \uB7AD\uD0B9 1\uC704, \uC62C \uC2A4\uD15F MAX\uC758
       \uCD5C\uAC15\uC758 \uC790\uB9AC\uC5D0 \uC788\uC5C8\uC9C0\uB9CC, \uC758\uBB38\uC758
@@ -4333,7 +4584,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 27
     characterName: "\uCF58\uC2A4\uD0C4\uD2B8"
-    illerstrationPath: Illerstration/Illerstration_Character_030
+    illerstrationPath: Illerstration/Illerstration_Character_027
     atkValue: 180
     vitValue: 900
     skill_Title_0: "\uC545\uBABD\uC758 \uC18D\uC0AD\uC784"
@@ -4354,7 +4605,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 28
     characterName: "\uD55C\uAC74\uD638"
-    illerstrationPath: Illerstration/Illerstration_Character_031
+    illerstrationPath: Illerstration/Illerstration_Character_028
     atkValue: 180
     vitValue: 900
     skill_Title_0: "\uC545\uBABD\uC758 \uC18D\uC0AD\uC784"
@@ -4375,7 +4626,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 29
     characterName: "\uB77C\uC784"
-    illerstrationPath: Illerstration/Illerstration_Character_032
+    illerstrationPath: Illerstration/Illerstration_Character_029
     atkValue: 75
     vitValue: 900
     skill_Title_0: "\uC2AC\uB77C\uC784 \uD3ED\uBC1C"
@@ -4396,7 +4647,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 30
     characterName: "\uC54C\uD30C\uCE74\uB9E8"
-    illerstrationPath: Illerstration/Illerstration_Character_033
+    illerstrationPath: Illerstration/Illerstration_Character_030
     atkValue: 75
     vitValue: 1200
     skill_Title_0: "\uC5D0\uB108\uC9C0 \uC8FC\uC785"
@@ -4417,7 +4668,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 31
     characterName: "\uD55C\uC218\uC544"
-    illerstrationPath: Illerstration/Illerstration_Character_034
+    illerstrationPath: Illerstration/Illerstration_Character_031
     atkValue: 75
     vitValue: 900
     skill_Title_0: "\uBE14\uB808\uC2F1"

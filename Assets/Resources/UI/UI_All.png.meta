@@ -166,7 +166,7 @@ TextureImporter:
         width: 85
         height: 85
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,6 +174,27 @@ TextureImporter:
       bones: []
       spriteID: 52086c429f3f1ab4b83d70172d28492b
       internalID: 1918777285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Frame_Character
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 2073
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5225a187a09105b479013ce8fdf2ac41
+      internalID: 14711495
       vertices: []
       indices: 
       edges: []
@@ -189,6 +210,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      UI_Frame_Character: 14711495
       Frame_5: 1116057351
       UI_Frame_Top: 1287863984
       UI_Frame_Skill: 1918777285

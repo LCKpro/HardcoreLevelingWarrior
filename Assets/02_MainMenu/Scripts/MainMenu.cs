@@ -7,6 +7,8 @@ public class MainMenu : MonoBehaviour
     public UI_Currency ui_Currency;
     public UI_MainSystem ui_MainSystem;
 
+    
+
     private void Start()
     {
         Init();
@@ -14,7 +16,9 @@ public class MainMenu : MonoBehaviour
 
     public void Init()
     {
+        SoundManager.instance.PlayBGM("Village");
         ui_Currency.InitCurrency();
+        ui_MainSystem.InitMainSystem();
     }
 
     /// <summary>

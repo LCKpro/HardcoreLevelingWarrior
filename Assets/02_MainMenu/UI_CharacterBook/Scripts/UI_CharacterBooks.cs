@@ -49,9 +49,20 @@ public class UI_CharacterBooks : MonoBehaviour
         text_CharacterBGDesc.text = info.characterBGDesc;
     }
 
+    private bool isAwaken = false;
     public void OnClick_ChangeAwakenIllerst()
     {
-        image_Illerstration.sprite = Resources.Load<Sprite>(illerstCode + "_0");
+        if(isAwaken == false)
+        {
+            image_Illerstration.sprite = Resources.Load<Sprite>(illerstCode + "_0");
+            isAwaken = true;
+        }
+        else
+        {
+            image_Illerstration.sprite = Resources.Load<Sprite>(illerstCode);
+            isAwaken = false;
+        }
+        
     }
 
     public void OnClick_Exit()

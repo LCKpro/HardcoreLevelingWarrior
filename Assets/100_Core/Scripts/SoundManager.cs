@@ -80,6 +80,7 @@ public class SoundManager : MonoBehaviour
             bgmSource.Stop();
             bgmSource.volume = bgmVolume;
             bgmSource.clip = sound.clip;
+            bgmSource.loop = true;
             bgmSource.Play();
         }
         else
