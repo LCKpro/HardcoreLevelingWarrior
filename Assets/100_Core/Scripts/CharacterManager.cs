@@ -45,5 +45,6 @@ public class CharacterData
     public string illerstrationPath;
     public int atkStat = 150;
     public int vitStat = 1500;
+    public float rangeStat = 1f;
 }
 

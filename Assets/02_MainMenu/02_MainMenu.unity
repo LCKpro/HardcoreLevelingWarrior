@@ -1064,161 +1064,193 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_000
     atkStat: 200
     vitStat: 2000
+    rangeStat: 2.5
   - characterName: "\uD5E4\uB9AC\uC544\uCE58"
     iconPath: Icons/Icon_Character_001
     illerstrationPath: Illerstration/Illerstration_Character_001
     atkStat: 100
     vitStat: 2000
+    rangeStat: 1
   - characterName: "\uD401\uB2F9\uC2A4\uD504"
     iconPath: Icons/Icon_Character_002
     illerstrationPath: Illerstration/Illerstration_Character_002
     atkStat: 100
     vitStat: 2000
+    rangeStat: 1.5
   - characterName: "\uD2F0\uBBF8\uC640 \uBC14\uC26C"
     iconPath: Icons/Icon_Character_003
     illerstrationPath: Illerstration/Illerstration_Character_003
     atkStat: 100
     vitStat: 2000
+    rangeStat: 1.7
   - characterName: "\uC18C\uB77C"
     iconPath: Icons/Icon_Character_004
     illerstrationPath: Illerstration/Illerstration_Character_004
     atkStat: 100
     vitStat: 2000
+    rangeStat: 1.6
   - characterName: "\uD558\uD2B8\uD788\uD130"
     iconPath: Icons/Icon_Character_005
     illerstrationPath: Illerstration/Illerstration_Character_005
     atkStat: 150
     vitStat: 1500
+    rangeStat: 2.6
   - characterName: "\uC288\uBE0C"
     iconPath: Icons/Icon_Character_006
     illerstrationPath: Illerstration/Illerstration_Character_006
     atkStat: 150
     vitStat: 1500
+    rangeStat: 1.1
   - characterName: "\uB370\uC774\uCEE8"
     iconPath: Icons/Icon_Character_007
     illerstrationPath: Illerstration/Illerstration_Character_007
     atkStat: 150
     vitStat: 1500
+    rangeStat: 1.2
   - characterName: "\uD55C\uC131\uACF5"
     iconPath: Icons/Icon_Character_008
     illerstrationPath: Illerstration/Illerstration_Character_008
     atkStat: 150
     vitStat: 1500
+    rangeStat: 2.7
   - characterName: "\uB9AC\uB77C"
     iconPath: Icons/Icon_Character_009
     illerstrationPath: Illerstration/Illerstration_Character_009
     atkStat: 150
     vitStat: 1500
+    rangeStat: 2.8
   - characterName: "\uC9C0\uC874\uAC80\uC0AC"
     iconPath: Icons/Icon_Character_010
     illerstrationPath: Illerstration/Illerstration_Character_010
     atkStat: 180
     vitStat: 1700
+    rangeStat: 2.9
   - characterName: "\uB808\uB514\uB098\uC774\uC544"
     iconPath: Icons/Icon_Character_011
     illerstrationPath: Illerstration/Illerstration_Character_011
     atkStat: 150
     vitStat: 1500
+    rangeStat: 2
   - characterName: "\uAE40\uBE44\uC11C"
     iconPath: Icons/Icon_Character_012
     illerstrationPath: Illerstration/Illerstration_Character_012
     atkStat: 170
     vitStat: 1200
+    rangeStat: 3.5
   - characterName: "\uC81C\uB85C"
     iconPath: Icons/Icon_Character_013
     illerstrationPath: Illerstration/Illerstration_Character_013
     atkStat: 170
     vitStat: 1200
+    rangeStat: 3
   - characterName: "\uC8FD\uCC3D\uB9E8"
     iconPath: Icons/Icon_Character_014
     illerstrationPath: Illerstration/Illerstration_Character_014
     atkStat: 170
     vitStat: 1200
+    rangeStat: 3.6
   - characterName: "\uB178\uB124\uC784"
     iconPath: Icons/Icon_Character_015
     illerstrationPath: Illerstration/Illerstration_Character_015
     atkStat: 200
     vitStat: 1500
+    rangeStat: 3.1
   - characterName: "\uC5EC\uD3EC"
     iconPath: Icons/Icon_Character_016
     illerstrationPath: Illerstration/Illerstration_Character_016
     atkStat: 220
     vitStat: 1200
+    rangeStat: 3.7
   - characterName: "\uC544\uB974\uBA54\uC2A4"
     iconPath: Icons/Icon_Character_017
     illerstrationPath: Illerstration/Illerstration_Character_017
     atkStat: 200
     vitStat: 1000
+    rangeStat: 5
   - characterName: "\uCFC4"
     iconPath: Icons/Icon_Character_018
     illerstrationPath: Illerstration/Illerstration_Character_018
     atkStat: 250
     vitStat: 750
+    rangeStat: 5.1
   - characterName: "\uD15C\uD398\uC2A4\uD2B8"
     iconPath: Icons/Icon_Character_019
     illerstrationPath: Illerstration/Illerstration_Character_019
     atkStat: 250
     vitStat: 750
+    rangeStat: 5.2
   - characterName: "\uB77C\uC774\uD2B8"
     iconPath: Icons/Icon_Character_020
     illerstrationPath: Illerstration/Illerstration_Character_020
     atkStat: 250
     vitStat: 1200
+    rangeStat: 4.5
   - characterName: "\uB9AC\uACE0\uC2A4"
     iconPath: Icons/Icon_Character_021
     illerstrationPath: Illerstration/Illerstration_Character_021
     atkStat: 180
     vitStat: 900
+    rangeStat: 4
   - characterName: "\uC0C8\uB4DC\uC2A4\uB9C8\uC77C"
     iconPath: Icons/Icon_Character_022
     illerstrationPath: Illerstration/Illerstration_Character_022
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.1
   - characterName: "\uB2E4\uD06C"
     iconPath: Icons/Icon_Character_023
     illerstrationPath: Illerstration/Illerstration_Character_023
     atkStat: 180
     vitStat: 1100
+    rangeStat: 4.2
   - characterName: "\uCD08\uCF54\uBE44\uBE44"
     iconPath: Icons/Icon_Character_024
     illerstrationPath: Illerstration/Illerstration_Character_024
     atkStat: 200
     vitStat: 900
+    rangeStat: 4.6
   - characterName: "\uD478\uC6B0\uD478"
     iconPath: Icons/Icon_Character_025
     illerstrationPath: Illerstration/Illerstration_Character_025
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.3
   - characterName: "\uC624\uC988"
     iconPath: Icons/Icon_Character_026
     illerstrationPath: Illerstration/Illerstration_Character_026
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.4
   - characterName: "\uCF58\uC2A4\uD0C4\uD2B8"
     iconPath: Icons/Icon_Character_027
     illerstrationPath: Illerstration/Illerstration_Character_027
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.7
   - characterName: "\uD55C\uAC74\uD638"
     iconPath: Icons/Icon_Character_028
     illerstrationPath: Illerstration/Illerstration_Character_028
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.8
   - characterName: "\uB77C\uC784"
     iconPath: Icons/Icon_Character_029
     illerstrationPath: Illerstration/Illerstration_Character_029
     atkStat: 75
     vitStat: 900
+    rangeStat: 5.5
   - characterName: "\uC54C\uD30C\uCE74\uB9E8"
     iconPath: Icons/Icon_Character_030
     illerstrationPath: Illerstration/Illerstration_Character_030
     atkStat: 75
     vitStat: 1200
+    rangeStat: 4.9
   - characterName: "\uD55C\uC218\uC544"
     iconPath: Icons/Icon_Character_031
     illerstrationPath: Illerstration/Illerstration_Character_031
     atkStat: 75
     vitStat: 900
+    rangeStat: 5.6
 --- !u!1001 &903547736
 PrefabInstance:
   m_ObjectHideFlags: 0

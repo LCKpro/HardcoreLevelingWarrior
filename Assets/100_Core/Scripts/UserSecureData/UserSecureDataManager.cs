@@ -262,6 +262,8 @@ public partial class UserSecureDataManager : MonoBehaviour
             }
         }
 
+        Debug.Log("Data Change : " + isChange);
+
         try
         {
             if (data?.Length > 5000)

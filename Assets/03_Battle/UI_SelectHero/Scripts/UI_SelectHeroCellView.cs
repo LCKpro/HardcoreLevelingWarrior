@@ -18,4 +18,9 @@ public class UI_SelectHeroCellView : EnhancedScrollerCellView
 
         flag_Squad.sprite = Resources.Load<Sprite>(Convert.ToString(data["FlagPath"]));
     }
+
+    public void OnClick_SelectHero()
+    {
+        GamePlay.Instance.selectHeroManager.AddSquadByRange(_index);
+    }
 }

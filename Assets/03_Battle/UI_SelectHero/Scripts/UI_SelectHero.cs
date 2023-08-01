@@ -22,6 +22,8 @@ public class UI_SelectHero : MonoBehaviour, IEnhancedScrollerDelegate
 
     public void SetData()
     {
+        GamePlay.Instance.selectHeroManager.InitData();
+
         if (isStart == false)
         {
             scroller.Delegate = this;
@@ -56,7 +58,7 @@ public class UI_SelectHero : MonoBehaviour, IEnhancedScrollerDelegate
 
     public float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
     {
-        return 162.3f;
+        return 150f;
     }
 
     public EnhancedScrollerCellView GetCellView(EnhancedScroller scroller, int dataIndex, int cellIndex)

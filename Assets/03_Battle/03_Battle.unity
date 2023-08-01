@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 58099249}
   - component: {fileID: 58099248}
   m_Layer: 5
-  m_Name: Image_Flag
+  m_Name: Image_Flag_Enemy_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,14 +174,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3404f151901959f429e015d4357d3f21, type: 3}
+  m_Sprite: {fileID: 192528079, guid: d0b96edc4913faa43b8c3cb67efc8333, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -199,6 +199,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58099246}
   m_CullTransparentMesh: 1
+--- !u!1 &145263923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145263924}
+  - component: {fileID: 145263925}
+  m_Layer: 0
+  m_Name: GamePlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &145263924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145263923}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2059404563}
+  - {fileID: 1876552547}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &145263925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145263923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d85f42cda43b273479751376f1e922ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectHeroManager: {fileID: 2059404564}
 --- !u!1 &204921117
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +257,7 @@ GameObject:
   - component: {fileID: 204921118}
   - component: {fileID: 204921119}
   m_Layer: 5
-  m_Name: Left
+  m_Name: Left(Ally)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -265,7 +312,7 @@ MonoBehaviour:
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
+  m_ReverseArrangement: 1
 --- !u!1 &228664018
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,8 +400,9 @@ GameObject:
   - component: {fileID: 393577725}
   - component: {fileID: 393577727}
   - component: {fileID: 393577726}
+  - component: {fileID: 393577728}
   m_Layer: 5
-  m_Name: Frame_Flag_1
+  m_Name: Frame_Flag_Ally_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -419,6 +467,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393577724}
   m_CullTransparentMesh: 1
+--- !u!114 &393577728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393577724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 393577726}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2059404564}
+        m_TargetAssemblyTypeName: SelectHeroManager, Assembly-CSharp
+        m_MethodName: OnClick_ExcludeHero
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &398447679
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,7 +611,7 @@ GameObject:
   - component: {fileID: 409344545}
   - component: {fileID: 409344544}
   m_Layer: 5
-  m_Name: Image_Flag
+  m_Name: Image_Flag_Ally_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -546,14 +650,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3404f151901959f429e015d4357d3f21, type: 3}
+  m_Sprite: {fileID: 192528079, guid: d0b96edc4913faa43b8c3cb67efc8333, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -582,8 +686,9 @@ GameObject:
   - component: {fileID: 448700242}
   - component: {fileID: 448700244}
   - component: {fileID: 448700243}
+  - component: {fileID: 448700245}
   m_Layer: 5
-  m_Name: Frame_Flag_2
+  m_Name: Frame_Flag_Ally_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,6 +753,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 448700241}
   m_CullTransparentMesh: 1
+--- !u!114 &448700245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448700241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 448700243}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2059404564}
+        m_TargetAssemblyTypeName: SelectHeroManager, Assembly-CSharp
+        m_MethodName: OnClick_ExcludeHero
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &507248712
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,7 +876,7 @@ GameObject:
   - component: {fileID: 509639330}
   - component: {fileID: 509639329}
   m_Layer: 5
-  m_Name: Frame_Flag_2
+  m_Name: Frame_Flag_Enemy_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -792,7 +953,7 @@ GameObject:
   - component: {fileID: 517972064}
   - component: {fileID: 517972063}
   m_Layer: 5
-  m_Name: Frame_Flag_0
+  m_Name: Frame_Flag_Enemy_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -888,7 +1049,7 @@ RectTransform:
   - {fileID: 1295644326}
   - {fileID: 1647428047}
   m_Father: {fileID: 1801108122}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -964,8 +1125,9 @@ GameObject:
   - component: {fileID: 615022973}
   - component: {fileID: 615022975}
   - component: {fileID: 615022974}
+  - component: {fileID: 615022976}
   m_Layer: 5
-  m_Name: Frame_Flag_0
+  m_Name: Frame_Flag_Ally_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1030,6 +1192,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615022972}
   m_CullTransparentMesh: 1
+--- !u!114 &615022976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615022972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 615022974}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2059404564}
+        m_TargetAssemblyTypeName: SelectHeroManager, Assembly-CSharp
+        m_MethodName: OnClick_ExcludeHero
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &681668432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,8 +1473,9 @@ GameObject:
   - component: {fileID: 819460464}
   - component: {fileID: 819460466}
   - component: {fileID: 819460465}
+  - component: {fileID: 819460467}
   m_Layer: 5
-  m_Name: Frame_Flag_3
+  m_Name: Frame_Flag_Ally_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1321,6 +1540,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819460463}
   m_CullTransparentMesh: 1
+--- !u!114 &819460467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819460463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 819460465}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2059404564}
+        m_TargetAssemblyTypeName: SelectHeroManager, Assembly-CSharp
+        m_MethodName: OnClick_ExcludeHero
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &820802496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,7 +1608,7 @@ GameObject:
   - component: {fileID: 820802499}
   - component: {fileID: 820802498}
   m_Layer: 5
-  m_Name: Frame_Flag_1
+  m_Name: Frame_Flag_Enemy_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1409,7 +1684,7 @@ GameObject:
   - component: {fileID: 859210850}
   - component: {fileID: 859210851}
   m_Layer: 5
-  m_Name: Right
+  m_Name: Right(Enemy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1678,7 +1953,7 @@ RectTransform:
   - {fileID: 1759254694}
   - {fileID: 1937803587}
   m_Father: {fileID: 1801108122}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1781,7 +2056,7 @@ GameObject:
   - component: {fileID: 985410160}
   - component: {fileID: 985410159}
   m_Layer: 5
-  m_Name: Frame_Flag_3
+  m_Name: Frame_Flag_Enemy_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1858,7 +2133,7 @@ GameObject:
   - component: {fileID: 1094220871}
   - component: {fileID: 1094220870}
   m_Layer: 5
-  m_Name: Image_Flag
+  m_Name: Image_Flag_Ally_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1897,14 +2172,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3404f151901959f429e015d4357d3f21, type: 3}
+  m_Sprite: {fileID: 192528079, guid: d0b96edc4913faa43b8c3cb67efc8333, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2010,7 +2285,7 @@ GameObject:
   - component: {fileID: 1241697149}
   - component: {fileID: 1241697148}
   m_Layer: 5
-  m_Name: Image_Flag
+  m_Name: Image_Flag_Ally_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2049,14 +2324,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3404f151901959f429e015d4357d3f21, type: 3}
+  m_Sprite: {fileID: 192528079, guid: d0b96edc4913faa43b8c3cb67efc8333, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2293,7 +2568,7 @@ GameObject:
   - component: {fileID: 1471972028}
   - component: {fileID: 1471972027}
   m_Layer: 5
-  m_Name: Image_Flag
+  m_Name: Image_Flag_Enemy_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2332,14 +2607,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3404f151901959f429e015d4357d3f21, type: 3}
+  m_Sprite: {fileID: 192528079, guid: d0b96edc4913faa43b8c3cb67efc8333, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2742,7 +3017,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1759254694
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2873,7 +3148,7 @@ GameObject:
   - component: {fileID: 1767284626}
   - component: {fileID: 1767284625}
   m_Layer: 5
-  m_Name: Image_Flag
+  m_Name: Image_Flag_Ally_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2912,14 +3187,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3404f151901959f429e015d4357d3f21, type: 3}
+  m_Sprite: {fileID: 192528079, guid: d0b96edc4913faa43b8c3cb67efc8333, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2966,7 +3241,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1827255174}
   - {fileID: 559412684}
   - {fileID: 937422340}
   m_Father: {fileID: 1464564788}
@@ -3004,7 +3278,7 @@ GameObject:
   - component: {fileID: 1809372055}
   - component: {fileID: 1809372054}
   m_Layer: 5
-  m_Name: Image_Flag
+  m_Name: Image_Flag_Enemy_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3043,14 +3317,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3404f151901959f429e015d4357d3f21, type: 3}
+  m_Sprite: {fileID: 192528079, guid: d0b96edc4913faa43b8c3cb67efc8333, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3068,42 +3342,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809372052}
   m_CullTransparentMesh: 1
---- !u!1 &1827255173
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1827255174}
-  m_Layer: 5
-  m_Name: SelectHeroManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1827255174
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827255173}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1801108122}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1832774557
 GameObject:
   m_ObjectHideFlags: 0
@@ -3613,6 +3851,135 @@ Transform:
   m_Father: {fileID: 1574018644}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1876552546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1876552547}
+  - component: {fileID: 1876552548}
+  m_Layer: 0
+  m_Name: EnemySquadManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1876552547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876552546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 145263924}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1876552548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876552546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c8706ebc599354693676dfe60d4819, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySquadDataList:
+  - index: 0
+    squadName: "\uD30C\uBFCC\uB9AC \uAE38\uB4DC"
+    squadMemberCount: 3
+    characterNameList:
+    - "\uB300\uD30C\uBA38\uB9AC"
+    - "\uB3D9\uCD98"
+    - "\uBC15\uC950\uAC78"
+    illerstrationPathList:
+    - Enemy/Illerstrations/Illerstration_Character_000_0
+    - Enemy/Illerstrations/Illerstration_Character_000_1
+    - Enemy/Illerstrations/Illerstration_Character_000_2
+    flagPathList:
+    - Enemy/Flags/Flag_Character_000_0
+    - Enemy/Flags/Flag_Character_000_1
+    - Enemy/Flags/Flag_Character_000_2
+    atkValue: 32000000280000001e000000
+    vitValue: f4010000900100002c010000
+    skill_TitleList:
+    - "\uD790\uB9C1 \uD380\uCE58"
+    - "\uAE38\uB4DC\uC7A5\uB2D8!"
+    - "\uD30C\uC774\uC5B4\uBCFC"
+  - index: 1
+    squadName: "\uD300 \uCF00\uC778\uCE20"
+    squadMemberCount: 3
+    characterNameList:
+    - "\uCF00\uC778\uCE20"
+    - "\uC624\uC988\uC640 \uAE08\uB3D9\uC774"
+    - "\uC54C\uD30C\uCE74\uB9E8"
+    illerstrationPathList:
+    - Enemy/Illerstrations/Illerstration_Character_001_0
+    - Illerstrations/Illerstration_Character_026
+    - Illerstrations/Illerstration_Character_030
+    flagPathList:
+    - Enemy/Flags/Flag_Character_001_0
+    - Flag_Character_026
+    - Flag_Character_030
+    atkValue: 320000003200000032000000
+    vitValue: 5e01000090010000f4010000
+    skill_TitleList:
+    - "\uD2B8\uB9AC\uD50C \uC5B4\uD0DD"
+    - "\uBD90\uBD90\uD0C4"
+    - "\uC54C\uD30C\uCE74\uB9E8\uC758 \uAD34\uB825"
+  - index: 2
+    squadName: "\uB3D9\uBB3C\uB18D\uC7A5"
+    squadMemberCount: 3
+    characterNameList:
+    - "\uB291\uB300\uC778\uAC04"
+    - "\uBC40\uD30C\uC774\uC5B4"
+    - "\uBA54\uB450\uC0AC"
+    illerstrationPathList:
+    - Enemy/Illerstrations/Illerstration_Character_002_0
+    - Enemy/Illerstrations/Illerstration_Character_002_1
+    - Enemy/Illerstrations/Illerstration_Character_002_2
+    flagPathList:
+    - Enemy/Flags/Flag_Character_002_0
+    - Enemy/Flags/Flag_Character_002_1
+    - Enemy/Flags/Flag_Character_002_2
+    atkValue: 1e000000280000002d000000
+    vitValue: f4010000900100005e010000
+    skill_TitleList:
+    - "\uB291\uB300\uC778\uAC04\uC758 \uD3EC\uD6A8"
+    - "\uBE14\uB7EC\uB514 \uB85C\uB4DC"
+    - "\uB9C8\uB098 \uC2A4\uB124\uC774\uD06C"
+  - index: 3
+    squadName: "\uC6B0\uB9C8\uC774\uC640 \uCE5C\uAD6C\uB4E4"
+    squadMemberCount: 3
+    characterNameList:
+    - "\uC778\uAE30BJ \uC6B0\uB9C8\uC774"
+    - "\uD1A0\uB07C\uAD70"
+    - "\uAC70\uBD81\uC774"
+    illerstrationPathList:
+    - Enemy/Illerstrations/Illerstration_Character_003_0
+    - Enemy/Illerstrations/Illerstration_Character_003_1
+    - Enemy/Illerstrations/Illerstration_Character_003_2
+    flagPathList:
+    - Enemy/Flags/Flag_Character_003_0
+    - Enemy/Flags/Flag_Character_003_1
+    - Enemy/Flags/Flag_Character_003_2
+    atkValue: 640000003200000032000000
+    vitValue: ee0200009001000090010000
+    skill_TitleList:
+    - "\uB9C8\uBE44\uAC80"
+    - "\uC2DC\uC2E0\uACBD \uD30C\uAD34 \uBE54"
+    - "\uD480 \uD30C\uC6CC \uAC70\uBD81\uD380\uCE58"
 --- !u!1 &1937803586
 GameObject:
   m_ObjectHideFlags: 0
@@ -3650,7 +4017,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -320}
+  m_AnchoredPosition: {x: 0, y: -285}
   m_SizeDelta: {x: 180, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1937803588
@@ -3826,7 +4193,7 @@ GameObject:
   - component: {fileID: 1995466659}
   - component: {fileID: 1995466658}
   m_Layer: 5
-  m_Name: Image_Flag
+  m_Name: Image_Flag_Enemy_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3865,14 +4232,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3404f151901959f429e015d4357d3f21, type: 3}
+  m_Sprite: {fileID: 192528079, guid: d0b96edc4913faa43b8c3cb67efc8333, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3969,161 +4336,193 @@ MonoBehaviour:
     illerstrationPath: Illerstration/Illerstration_Character_000
     atkStat: 200
     vitStat: 2000
+    rangeStat: 2.5
   - characterName: "\uD5E4\uB9AC\uC544\uCE58"
     iconPath: Icons/Icon_Character_001
     illerstrationPath: Illerstration/Illerstration_Character_001
     atkStat: 100
     vitStat: 2000
+    rangeStat: 1
   - characterName: "\uD401\uB2F9\uC2A4\uD504"
     iconPath: Icons/Icon_Character_002
     illerstrationPath: Illerstration/Illerstration_Character_002
     atkStat: 100
     vitStat: 2000
+    rangeStat: 1.5
   - characterName: "\uD2F0\uBBF8\uC640 \uBC14\uC26C"
     iconPath: Icons/Icon_Character_003
     illerstrationPath: Illerstration/Illerstration_Character_003
     atkStat: 100
     vitStat: 2000
+    rangeStat: 1.7
   - characterName: "\uC18C\uB77C"
     iconPath: Icons/Icon_Character_004
     illerstrationPath: Illerstration/Illerstration_Character_004
     atkStat: 100
     vitStat: 2000
+    rangeStat: 1.6
   - characterName: "\uD558\uD2B8\uD788\uD130"
     iconPath: Icons/Icon_Character_005
     illerstrationPath: Illerstration/Illerstration_Character_005
     atkStat: 150
     vitStat: 1500
+    rangeStat: 2.6
   - characterName: "\uC288\uBE0C"
     iconPath: Icons/Icon_Character_006
     illerstrationPath: Illerstration/Illerstration_Character_006
     atkStat: 150
     vitStat: 1500
+    rangeStat: 1.1
   - characterName: "\uB370\uC774\uCEE8"
     iconPath: Icons/Icon_Character_007
     illerstrationPath: Illerstration/Illerstration_Character_007
     atkStat: 150
     vitStat: 1500
+    rangeStat: 1.2
   - characterName: "\uD55C\uC131\uACF5"
     iconPath: Icons/Icon_Character_008
     illerstrationPath: Illerstration/Illerstration_Character_008
     atkStat: 150
     vitStat: 1500
+    rangeStat: 2.7
   - characterName: "\uB9AC\uB77C"
     iconPath: Icons/Icon_Character_009
     illerstrationPath: Illerstration/Illerstration_Character_009
     atkStat: 150
     vitStat: 1500
+    rangeStat: 2.8
   - characterName: "\uC9C0\uC874\uAC80\uC0AC"
     iconPath: Icons/Icon_Character_010
     illerstrationPath: Illerstration/Illerstration_Character_010
     atkStat: 180
     vitStat: 1700
+    rangeStat: 2.9
   - characterName: "\uB808\uB514\uB098\uC774\uC544"
     iconPath: Icons/Icon_Character_011
     illerstrationPath: Illerstration/Illerstration_Character_011
     atkStat: 150
     vitStat: 1500
+    rangeStat: 2
   - characterName: "\uAE40\uBE44\uC11C"
     iconPath: Icons/Icon_Character_012
     illerstrationPath: Illerstration/Illerstration_Character_012
     atkStat: 170
     vitStat: 1200
+    rangeStat: 3.5
   - characterName: "\uC81C\uB85C"
     iconPath: Icons/Icon_Character_013
     illerstrationPath: Illerstration/Illerstration_Character_013
     atkStat: 170
     vitStat: 1200
+    rangeStat: 3
   - characterName: "\uC8FD\uCC3D\uB9E8"
     iconPath: Icons/Icon_Character_014
     illerstrationPath: Illerstration/Illerstration_Character_014
     atkStat: 170
     vitStat: 1200
+    rangeStat: 3.6
   - characterName: "\uB178\uB124\uC784"
     iconPath: Icons/Icon_Character_015
     illerstrationPath: Illerstration/Illerstration_Character_015
     atkStat: 200
     vitStat: 1500
+    rangeStat: 3.1
   - characterName: "\uC5EC\uD3EC"
     iconPath: Icons/Icon_Character_016
     illerstrationPath: Illerstration/Illerstration_Character_016
     atkStat: 220
     vitStat: 1200
+    rangeStat: 3.7
   - characterName: "\uC544\uB974\uBA54\uC2A4"
     iconPath: Icons/Icon_Character_017
     illerstrationPath: Illerstration/Illerstration_Character_017
     atkStat: 200
     vitStat: 1000
+    rangeStat: 5
   - characterName: "\uCFC4"
     iconPath: Icons/Icon_Character_018
     illerstrationPath: Illerstration/Illerstration_Character_018
     atkStat: 250
     vitStat: 750
+    rangeStat: 5.1
   - characterName: "\uD15C\uD398\uC2A4\uD2B8"
     iconPath: Icons/Icon_Character_019
     illerstrationPath: Illerstration/Illerstration_Character_019
     atkStat: 250
     vitStat: 750
+    rangeStat: 5.2
   - characterName: "\uB77C\uC774\uD2B8"
     iconPath: Icons/Icon_Character_020
     illerstrationPath: Illerstration/Illerstration_Character_020
     atkStat: 250
     vitStat: 1200
+    rangeStat: 4.5
   - characterName: "\uB9AC\uACE0\uC2A4"
     iconPath: Icons/Icon_Character_021
     illerstrationPath: Illerstration/Illerstration_Character_021
     atkStat: 180
     vitStat: 900
+    rangeStat: 4
   - characterName: "\uC0C8\uB4DC\uC2A4\uB9C8\uC77C"
     iconPath: Icons/Icon_Character_022
     illerstrationPath: Illerstration/Illerstration_Character_022
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.1
   - characterName: "\uB2E4\uD06C"
     iconPath: Icons/Icon_Character_023
     illerstrationPath: Illerstration/Illerstration_Character_023
     atkStat: 180
     vitStat: 1100
+    rangeStat: 4.2
   - characterName: "\uCD08\uCF54\uBE44\uBE44"
     iconPath: Icons/Icon_Character_024
     illerstrationPath: Illerstration/Illerstration_Character_024
     atkStat: 200
     vitStat: 900
+    rangeStat: 4.6
   - characterName: "\uD478\uC6B0\uD478"
     iconPath: Icons/Icon_Character_025
     illerstrationPath: Illerstration/Illerstration_Character_025
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.3
   - characterName: "\uC624\uC988"
     iconPath: Icons/Icon_Character_026
     illerstrationPath: Illerstration/Illerstration_Character_026
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.4
   - characterName: "\uCF58\uC2A4\uD0C4\uD2B8"
     iconPath: Icons/Icon_Character_027
     illerstrationPath: Illerstration/Illerstration_Character_027
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.7
   - characterName: "\uD55C\uAC74\uD638"
     iconPath: Icons/Icon_Character_028
     illerstrationPath: Illerstration/Illerstration_Character_028
     atkStat: 180
     vitStat: 900
+    rangeStat: 4.8
   - characterName: "\uB77C\uC784"
     iconPath: Icons/Icon_Character_029
     illerstrationPath: Illerstration/Illerstration_Character_029
     atkStat: 75
     vitStat: 900
+    rangeStat: 5.5
   - characterName: "\uC54C\uD30C\uCE74\uB9E8"
     iconPath: Icons/Icon_Character_030
     illerstrationPath: Illerstration/Illerstration_Character_030
     atkStat: 75
     vitStat: 1200
+    rangeStat: 4.9
   - characterName: "\uD55C\uC218\uC544"
     iconPath: Icons/Icon_Character_031
     illerstrationPath: Illerstration/Illerstration_Character_031
     atkStat: 75
     vitStat: 900
+    rangeStat: 5.6
 --- !u!4 &2043389220
 Transform:
   m_ObjectHideFlags: 0
@@ -4139,6 +4538,62 @@ Transform:
   m_Father: {fileID: 1574018644}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2059404562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2059404563}
+  - component: {fileID: 2059404564}
+  m_Layer: 0
+  m_Name: SelectHeroManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2059404563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059404562}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 145263924}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2059404564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059404562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d5a2d439e91eb458ccb4622c6d8695, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allySquadImageList:
+  - {fileID: 1241697148}
+  - {fileID: 409344544}
+  - {fileID: 1767284625}
+  - {fileID: 1094220870}
+  enemySquadImageList:
+  - {fileID: 58099248}
+  - {fileID: 1809372054}
+  - {fileID: 1471972027}
+  - {fileID: 1995466658}
+  blankImage: {fileID: 192528079, guid: d0b96edc4913faa43b8c3cb67efc8333, type: 3}
+  nextButton: {fileID: 1937803590}
 --- !u!1 &2088996550
 GameObject:
   m_ObjectHideFlags: 0
