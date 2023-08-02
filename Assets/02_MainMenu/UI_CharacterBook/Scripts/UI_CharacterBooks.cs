@@ -50,12 +50,28 @@ public class UI_CharacterBooks : MonoBehaviour
     }
 
     private bool isAwaken = false;
+    private bool noAwaken = false;
     public void OnClick_ChangeAwakenIllerst()
     {
+        if(noAwaken == true)
+        {
+            Debug.Log("각성 일러스트 없음");
+            return;
+        }
+
         if(isAwaken == false)
         {
-            image_Illerstration.sprite = Resources.Load<Sprite>(illerstCode + "_0");
-            isAwaken = true;
+            var sprite = Resources.Load<Sprite>(illerstCode + "_0");
+            
+            if(sprite != null)
+            {
+                image_Illerstration.sprite = sprite;
+                isAwaken = true;
+            }
+            else
+            {
+                noAwaken = true;
+            }
         }
         else
         {
