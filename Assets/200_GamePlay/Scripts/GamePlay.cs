@@ -46,4 +46,5 @@ public class GamePlay : MonoBehaviour
     #endregion
 
     public SelectHeroManager selectHeroManager;
+    public EnemySquadManager enemySquadManager;
 }

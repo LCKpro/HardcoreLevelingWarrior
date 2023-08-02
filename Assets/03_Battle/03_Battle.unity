@@ -246,6 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectHeroManager: {fileID: 2059404564}
+  enemySquadManager: {fileID: 1876552548}
 --- !u!1 &204921117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3939,7 +3940,7 @@ MonoBehaviour:
     - "\uBD90\uBD90\uD0C4"
     - "\uC54C\uD30C\uCE74\uB9E8\uC758 \uAD34\uB825"
   - index: 2
-    squadName: "\uB3D9\uBB3C\uB18D\uC7A5"
+    squadName: "\uD300 \uBA54\uB450\uC0AC"
     squadMemberCount: 3
     characterNameList:
     - "\uB291\uB300\uC778\uAC04"
@@ -3957,7 +3958,7 @@ MonoBehaviour:
     vitValue: f4010000900100005e010000
     skill_TitleList:
     - "\uB291\uB300\uC778\uAC04\uC758 \uD3EC\uD6A8"
-    - "\uBE14\uB7EC\uB514 \uB85C\uB4DC"
+    - "\uBE14\uB7EC\uB4DC \uB85C\uB4DC"
     - "\uB9C8\uB098 \uC2A4\uB124\uC774\uD06C"
   - index: 3
     squadName: "\uC6B0\uB9C8\uC774\uC640 \uCE5C\uAD6C\uB4E4"

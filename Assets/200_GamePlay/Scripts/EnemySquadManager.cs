@@ -7,7 +7,20 @@ public class EnemySquadManager : MonoBehaviour
     [SerializeField]
     private List<EnemySquad> enemySquadDataList;
 
-    public EnemySquad GetCharacterInfoDataByIndex(int index)
+    public EnemySquad GetRandomEnemySquadData()
+    {
+        if (enemySquadDataList == null)
+        {
+            GameUtils.Log("Character Info Data Null");
+            return null;
+        }
+
+        var rndEnemySquad = GameUtils.RandomItem(enemySquadDataList);
+
+        return rndEnemySquad;
+    }
+
+    public EnemySquad GetEnemySquadDataByIndex(int index)
     {
         if (enemySquadDataList == null)
         {

@@ -51,6 +51,7 @@ public partial class Core : MonoBehaviour
     public SkillManager skillManager;
     public ItemManager itemManager;
     public CharacterManager characterManager;
+    public CharacterInfoManager characterInfoManager;
 
     /// <summary>
     /// Init Logic
