@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using EnhancedUI.EnhancedScroller;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UI_SelectHero : MonoBehaviour, IEnhancedScrollerDelegate
 {
@@ -11,8 +12,14 @@ public class UI_SelectHero : MonoBehaviour, IEnhancedScrollerDelegate
     // 화면에 나타나는 셀뷰 프리팹
     public UI_SelectHeroCellView selectHeroCellViewPrefab;
 
+    public Image[] sortButtonList;
+
     private List<Dictionary<string, object>> _data_Squad;
     private List<int> squadIndexList = new List<int>();     // 가지고 있는 영웅의 인덱스 리스트
+
+    private List<int> squadIndexSortList = new List<int>();     // 가지고 있는 영웅의 인덱스 리스트를 정렬
+
+    private GameDefine.SelectHeroSortType selectHeroSortType = GameDefine.SelectHeroSortType.None;
 
     private bool isStart = false;
 
@@ -55,6 +62,16 @@ public class UI_SelectHero : MonoBehaviour, IEnhancedScrollerDelegate
         }
 
         SetPlayableSquadIndex();
+
+        if(selectHeroSortType != GameDefine.SelectHeroSortType.None)
+        {
+            SetSortIndex();
+        }
+        else
+        {
+            SetPlayableSquadIndex();
+        }
+
         LoadSquadData();
     }
 
@@ -84,6 +101,23 @@ public class UI_SelectHero : MonoBehaviour, IEnhancedScrollerDelegate
     }
 
     /// <summary>
+    /// 가지고 있는 캐릭터 중 정렬에 해당하는 캐릭터 인덱스만 따로 세팅
+    /// </summary>
+    private void SetSortIndex()
+    {
+        squadIndexSortList.Clear();
+        for (int i = 0; i < squadIndexList.Count; i++)
+        {
+            var info = Core.Instance.characterInfoManager.GetCharacterInfoDataByIndex(squadIndexList[i]);
+            
+            if(info.selectHeroSortType == selectHeroSortType)
+            {
+                squadIndexSortList.Add(squadIndexList[i]);
+            }
+        }
+    }
+
+    /// <summary>
     /// 가지고 있는 캐릭터의 인덱스 순서 반환
     /// </summary>
     /// <param name="index"></param>
@@ -97,6 +131,17 @@ public class UI_SelectHero : MonoBehaviour, IEnhancedScrollerDelegate
         }
 
         return squadIndexList[index];
+    }
+
+    public int GetSortSquadIndex(int index)
+    {
+        if (squadIndexSortList.Count <= index)
+        {
+            Debug.LogError("스쿼드 인덱스의 카운트보다 인덱스가 높음");
+            return 9999999;
+        }
+
+        return squadIndexSortList[index];
     }
 
     public void LoadSquadData()
@@ -121,7 +166,17 @@ public class UI_SelectHero : MonoBehaviour, IEnhancedScrollerDelegate
 
         cellView = scroller.GetCellView(selectHeroCellViewPrefab) as UI_SelectHeroCellView;
 
-        var index = GetPlayableSquadIndex(dataIndex);       // 인덱스 0부터 쭉 가는게 아니라 있는 캐릭터 순서대로 쭉 가야 함
+        int index = 0;
+
+        if(selectHeroSortType == GameDefine.SelectHeroSortType.None)
+        {
+            index = GetPlayableSquadIndex(dataIndex);       // 인덱스 0부터 쭉 가는게 아니라 있는 캐릭터 순서대로 쭉 가야 함
+        }
+        else
+        {
+            index = GetSortSquadIndex(dataIndex);       // 만약 정렬버튼을 눌렀으면 정렬에 맞는 인덱스를 가져와야 함
+        }
+
         cellView.SetData(_data_Squad[index], index);
 
         return cellView;
@@ -131,9 +186,81 @@ public class UI_SelectHero : MonoBehaviour, IEnhancedScrollerDelegate
     {
         if (squadIndexList != null)
         {
-            return squadIndexList.Count;
+            if(selectHeroSortType == GameDefine.SelectHeroSortType.None)
+            {
+                return squadIndexList.Count;
+            }
+            else
+            {
+                return squadIndexSortList.Count;
+            }
         }
 
         return 0;
     }
+
+    #region Button
+
+    private bool[] isClick = new bool[5];
+    public void OnClick_SortType(int index)
+    {
+        SoundManager.instance.PlayUIButtonClickSound();
+
+        for (int i = 0; i < isClick.Length; i++)
+        {
+            if(index == i)
+            {
+                continue;
+            }
+
+            isClick[i] = false;
+            sortButtonList[i].color = new Color(1, 1, 1, 1);
+        }
+
+        if(isClick[index] == false)
+        {
+            SetSortType(index);
+            sortButtonList[index].color = new Color(1, 0, 0, 1);
+            isClick[index] = true;
+        }
+        else
+        {
+            selectHeroSortType = GameDefine.SelectHeroSortType.None;
+            sortButtonList[index].color = new Color(1, 1, 1, 1);
+            isClick[index] = false;
+        }
+
+        SetData();
+    }
+
+    private void SetSortType(int index)
+    {
+        if(index == 0)
+        {
+            selectHeroSortType = GameDefine.SelectHeroSortType.Tanker;
+        }
+        else if(index == 1)
+        {
+            selectHeroSortType = GameDefine.SelectHeroSortType.Dealer_Melee;
+        }
+        else if (index == 2)
+        {
+            selectHeroSortType = GameDefine.SelectHeroSortType.Dealer_Range;
+        }
+        else if (index == 3)
+        {
+            selectHeroSortType = GameDefine.SelectHeroSortType.Supporter;
+        }
+        else if (index == 4)
+        {
+            selectHeroSortType = GameDefine.SelectHeroSortType.Healer;
+        }
+        else
+        {
+            Debug.Log("없는 인덱스.. 확인 필요");
+            selectHeroSortType = GameDefine.SelectHeroSortType.None;
+        }
+    }
+
+    #endregion
 }

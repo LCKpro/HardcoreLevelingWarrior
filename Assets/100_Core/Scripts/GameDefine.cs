@@ -1,5 +1,15 @@
 public static class GameDefine
 {
+    public enum SelectHeroSortType
+    {
+        None = 0,
+        Tanker = 1,         // ÅÊÄ¿
+        Dealer_Melee = 2,   // ±Ù°Å¸® µô·¯
+        Dealer_Range = 3,   // ¿ø°Å¸® µô·¯
+        Supporter = 4,  // Áö¿ø°¡
+        Healer = 5,     // Èú·¯
+    }
+
     public enum ItemType
     {
         Weapon = 0,

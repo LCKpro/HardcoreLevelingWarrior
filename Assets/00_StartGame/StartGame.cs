@@ -36,6 +36,7 @@ public class StartGame : MonoBehaviour
 
     private void Start()
     {
+        SoundManager.instance.PlayBGM("Title");
         //messageBox.SetActive(false);
     }
 

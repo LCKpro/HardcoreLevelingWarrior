@@ -45,4 +45,5 @@ public class CharacterBookInfoData
     public string skill_IconPath_1;
 
     public string characterBGDesc;
+    public GameDefine.SelectHeroSortType selectHeroSortType;
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GamePlay : MonoBehaviour
 {
@@ -49,4 +50,11 @@ public class GamePlay : MonoBehaviour
     public EnemySquadManager enemySquadManager;
     public BattleManager battleManager;
     public BattleUIManager battleUIManager;
+
+    public void Cheat_ResetScene()
+    {
+        SoundManager.instance.PlayUIButtonClickSound();
+        CryptoPlayerPrefs.SetString("route", "battle");
+        SceneManager.LoadScene("01_Loading");
+    }
 }

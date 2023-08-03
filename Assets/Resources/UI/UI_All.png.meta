@@ -313,7 +313,7 @@ TextureImporter:
         width: 240
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -321,6 +321,111 @@ TextureImporter:
       bones: []
       spriteID: 0154535322ef2564dab69fedabbc2167
       internalID: 976691329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sort_Supporter
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 2380
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161af2d32a6abc7439c31dc0c735dc04
+      internalID: -1450904020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sort_Dealer_Melee
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 2326
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd46ab1bd1be164fa5b9fe72051d187
+      internalID: 960086187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sort_Tanker
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 382
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de5117e45dd82d498c15429e3874fb4
+      internalID: 397727207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sort_Healer
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1072
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b905e622006fd44a8ac18992f1169f
+      internalID: -705594095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Sort_Dealer_Range
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2623
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a54398914416544f8d7b142fd554288
+      internalID: -1741319290
       vertices: []
       indices: 
       edges: []
@@ -336,13 +441,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      UI_Sort_Supporter: -1450904020
       UI_Frame_Character: 14711495
       UI_Frame_Flag_2: 192528079
       UI_Frame_HP: 976691329
       Frame_5: 1116057351
       UI_Frame_Flag_1: -1858558777
+      UI_Sort_Dealer_Melee: 960086187
+      UI_Sort_Healer: -705594095
       UI_Frame_Top: 1287863984
+      UI_Sort_Dealer_Range: -1741319290
       UI_SkillSlot: -668197854
+      UI_Sort_Tanker: 397727207
       UI_VS: 725867612
       UI_SkillSlot_1: -227014727
       UI_Frame_Skill: 1918777285

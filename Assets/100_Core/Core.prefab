@@ -111,6 +111,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 1
     characterName: "\uD5E4\uB9AC\uC544\uCE58"
     iconPath: Icons/Icon_Character_001
@@ -133,6 +134,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 1
   - index: 2
     characterName: "\uD401\uB2F9\uC2A4\uD504"
     iconPath: Icons/Icon_Character_002
@@ -155,6 +157,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 1
   - index: 3
     characterName: "\uD2F0\uBBF8\uC640 \uBC14\uC26C"
     iconPath: Icons/Icon_Character_003
@@ -177,6 +180,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 1
   - index: 4
     characterName: "\uC18C\uB77C"
     iconPath: Icons/Icon_Character_004
@@ -199,6 +203,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 1
   - index: 5
     characterName: "\uD558\uD2B8\uD788\uD130"
     iconPath: Icons/Icon_Character_005
@@ -221,6 +226,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 6
     characterName: "\uC288\uBE0C"
     iconPath: Icons/Icon_Character_006
@@ -243,6 +249,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 7
     characterName: "\uB370\uC774\uCEE8"
     iconPath: Icons/Icon_Character_007
@@ -265,6 +272,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 8
     characterName: "\uD55C\uC131\uACF5"
     iconPath: Icons/Icon_Character_008
@@ -287,6 +295,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 9
     characterName: "\uB9AC\uB77C"
     iconPath: Icons/Icon_Character_009
@@ -309,6 +318,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 10
     characterName: "\uC9C0\uC874\uAC80\uC0AC"
     iconPath: Icons/Icon_Character_010
@@ -331,6 +341,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 11
     characterName: "\uB808\uB514\uB098\uC774\uC544"
     iconPath: Icons/Icon_Character_011
@@ -353,6 +364,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 12
     characterName: "\uAE40\uBE44\uC11C"
     iconPath: Icons/Icon_Character_012
@@ -375,6 +387,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 13
     characterName: "\uC81C\uB85C"
     iconPath: Icons/Icon_Character_013
@@ -397,6 +410,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 14
     characterName: "\uC8FD\uCC3D\uB9E8"
     iconPath: Icons/Icon_Character_014
@@ -419,6 +433,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 15
     characterName: "\uB178\uB124\uC784"
     iconPath: Icons/Icon_Character_015
@@ -441,6 +456,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 16
     characterName: "\uC5EC\uD3EC"
     iconPath: Icons/Icon_Character_016
@@ -463,6 +479,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 17
     characterName: "\uC544\uB974\uBA54\uC2A4"
     iconPath: Icons/Icon_Character_017
@@ -485,6 +502,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 18
     characterName: "\uCFC4"
     iconPath: Icons/Icon_Character_018
@@ -507,6 +525,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 3
   - index: 19
     characterName: "\uD15C\uD398\uC2A4\uD2B8"
     iconPath: Icons/Icon_Character_019
@@ -529,6 +548,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 3
   - index: 20
     characterName: "\uB77C\uC774\uD2B8"
     iconPath: Icons/Icon_Character_020
@@ -551,6 +571,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 3
   - index: 21
     characterName: "\uB9AC\uACE0\uC2A4"
     iconPath: Icons/Icon_Character_021
@@ -573,6 +594,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 3
   - index: 22
     characterName: "\uC0C8\uB4DC\uC2A4\uB9C8\uC77C"
     iconPath: Icons/Icon_Character_022
@@ -595,6 +617,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 4
   - index: 23
     characterName: "\uB2E4\uD06C"
     iconPath: Icons/Icon_Character_023
@@ -617,6 +640,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 4
   - index: 24
     characterName: "\uCD08\uCF54\uBE44\uBE44"
     iconPath: Icons/Icon_Character_024
@@ -639,6 +663,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 4
   - index: 25
     characterName: "\uD478\uC6B0\uD478"
     iconPath: Icons/Icon_Character_025
@@ -661,6 +686,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 4
   - index: 26
     characterName: "\uC624\uC988"
     iconPath: Icons/Icon_Character_026
@@ -683,6 +709,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 3
   - index: 27
     characterName: "\uCF58\uC2A4\uD0C4\uD2B8"
     iconPath: Icons/Icon_Character_027
@@ -705,6 +732,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 28
     characterName: "\uD55C\uAC74\uD638"
     iconPath: Icons/Icon_Character_028
@@ -727,6 +755,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 4
   - index: 29
     characterName: "\uB77C\uC784"
     iconPath: Icons/Icon_Character_029
@@ -749,6 +778,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 5
   - index: 30
     characterName: "\uC54C\uD30C\uCE74\uB9E8"
     iconPath: Icons/Icon_Character_030
@@ -771,6 +801,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 5
   - index: 31
     characterName: "\uD55C\uC218\uC544"
     iconPath: Icons/Icon_Character_031
@@ -793,6 +824,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 5
   - index: 32
     characterName: "\uBE5A\uC7C1\uC774 \uC5F4\uB819\uC804\uC0AC"
     iconPath: Icons/Icon_Character_032
@@ -815,6 +847,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 2
   - index: 33
     characterName: "\uBA39\uBCF4 \uC18C\uB77C"
     iconPath: Icons/Icon_Character_033
@@ -837,6 +870,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 1
   - index: 34
     characterName: "\uB3C4\uB828\uB2D8 \uB2E4\uD06C"
     iconPath: Icons/Icon_Character_034
@@ -859,6 +893,7 @@ MonoBehaviour:
       \uBE5A\uC744 \uAC1A\uACE0 \uC790\uC2E0\uC758 \uC804\uC131\uAE30\uB85C \uB418\uB3CC\uC544\uAC00\uAE30
       \uC704\uD558\uC5EC \uD558\uD2B8 \uD788\uD130\uC758 \uB2E4\uD06C, \uC18C\uB77C\uC640
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
+    selectHeroSortType: 4
 --- !u!1 &5700482315191276592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1539,6 +1574,9 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Arena
     clip: {fileID: 8300000, guid: bd0cd315cf00f8c43aaaa58d7e08aff4, type: 3}
+    source: {fileID: 0}
+  - name: Title
+    clip: {fileID: 8300000, guid: 64d6523724a3b0f41bb9eeada93eb225, type: 3}
     source: {fileID: 0}
 --- !u!1 &5700482316062422175
 GameObject:
