@@ -30,6 +30,7 @@ public class CharacterBookInfoData
 {
     public int index;
     public string characterName;
+    public string iconPath;
     public string illerstrationPath;
     
     public int atkValue = 150;

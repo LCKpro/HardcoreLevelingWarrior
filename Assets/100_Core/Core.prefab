@@ -91,6 +91,7 @@ MonoBehaviour:
   characterItemDataList:
   - index: 0
     characterName: "\uC5F4\uB819\uC804\uC0AC"
+    iconPath: Icons/Icon_Character_000
     illerstrationPath: Illerstration/Illerstration_Character_000
     atkValue: 200
     vitValue: 2000
@@ -112,6 +113,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 1
     characterName: "\uD5E4\uB9AC\uC544\uCE58"
+    iconPath: Icons/Icon_Character_001
     illerstrationPath: Illerstration/Illerstration_Character_001
     atkValue: 100
     vitValue: 2000
@@ -133,6 +135,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 2
     characterName: "\uD401\uB2F9\uC2A4\uD504"
+    iconPath: Icons/Icon_Character_002
     illerstrationPath: Illerstration/Illerstration_Character_002
     atkValue: 100
     vitValue: 2000
@@ -154,6 +157,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 3
     characterName: "\uD2F0\uBBF8\uC640 \uBC14\uC26C"
+    iconPath: Icons/Icon_Character_003
     illerstrationPath: Illerstration/Illerstration_Character_003
     atkValue: 150
     vitValue: 1500
@@ -175,6 +179,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 4
     characterName: "\uC18C\uB77C"
+    iconPath: Icons/Icon_Character_004
     illerstrationPath: Illerstration/Illerstration_Character_004
     atkValue: 100
     vitValue: 2000
@@ -196,6 +201,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 5
     characterName: "\uD558\uD2B8\uD788\uD130"
+    iconPath: Icons/Icon_Character_005
     illerstrationPath: Illerstration/Illerstration_Character_005
     atkValue: 150
     vitValue: 1500
@@ -217,6 +223,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 6
     characterName: "\uC288\uBE0C"
+    iconPath: Icons/Icon_Character_006
     illerstrationPath: Illerstration/Illerstration_Character_006
     atkValue: 150
     vitValue: 1500
@@ -238,6 +245,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 7
     characterName: "\uB370\uC774\uCEE8"
+    iconPath: Icons/Icon_Character_007
     illerstrationPath: Illerstration/Illerstration_Character_007
     atkValue: 150
     vitValue: 1500
@@ -259,6 +267,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 8
     characterName: "\uD55C\uC131\uACF5"
+    iconPath: Icons/Icon_Character_008
     illerstrationPath: Illerstration/Illerstration_Character_008
     atkValue: 150
     vitValue: 1500
@@ -280,6 +289,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 9
     characterName: "\uB9AC\uB77C"
+    iconPath: Icons/Icon_Character_009
     illerstrationPath: Illerstration/Illerstration_Character_009
     atkValue: 150
     vitValue: 1500
@@ -301,6 +311,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 10
     characterName: "\uC9C0\uC874\uAC80\uC0AC"
+    iconPath: Icons/Icon_Character_010
     illerstrationPath: Illerstration/Illerstration_Character_010
     atkValue: 180
     vitValue: 1700
@@ -322,6 +333,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 11
     characterName: "\uB808\uB514\uB098\uC774\uC544"
+    iconPath: Icons/Icon_Character_011
     illerstrationPath: Illerstration/Illerstration_Character_011
     atkValue: 150
     vitValue: 1500
@@ -343,6 +355,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 12
     characterName: "\uAE40\uBE44\uC11C"
+    iconPath: Icons/Icon_Character_012
     illerstrationPath: Illerstration/Illerstration_Character_012
     atkValue: 170
     vitValue: 1200
@@ -364,6 +377,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 13
     characterName: "\uC81C\uB85C"
+    iconPath: Icons/Icon_Character_013
     illerstrationPath: Illerstration/Illerstration_Character_013
     atkValue: 200
     vitValue: 1200
@@ -385,6 +399,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 14
     characterName: "\uC8FD\uCC3D\uB9E8"
+    iconPath: Icons/Icon_Character_014
     illerstrationPath: Illerstration/Illerstration_Character_014
     atkValue: 170
     vitValue: 1200
@@ -406,6 +421,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 15
     characterName: "\uB178\uB124\uC784"
+    iconPath: Icons/Icon_Character_015
     illerstrationPath: Illerstration/Illerstration_Character_015
     atkValue: 200
     vitValue: 1500
@@ -427,6 +443,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 16
     characterName: "\uC5EC\uD3EC"
+    iconPath: Icons/Icon_Character_016
     illerstrationPath: Illerstration/Illerstration_Character_016
     atkValue: 220
     vitValue: 1200
@@ -448,6 +465,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 17
     characterName: "\uC544\uB974\uBA54\uC2A4"
+    iconPath: Icons/Icon_Character_017
     illerstrationPath: Illerstration/Illerstration_Character_017
     atkValue: 200
     vitValue: 1000
@@ -469,6 +487,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 18
     characterName: "\uCFC4"
+    iconPath: Icons/Icon_Character_018
     illerstrationPath: Illerstration/Illerstration_Character_018
     atkValue: 250
     vitValue: 750
@@ -490,6 +509,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 19
     characterName: "\uD15C\uD398\uC2A4\uD2B8"
+    iconPath: Icons/Icon_Character_019
     illerstrationPath: Illerstration/Illerstration_Character_019
     atkValue: 250
     vitValue: 750
@@ -511,6 +531,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 20
     characterName: "\uB77C\uC774\uD2B8"
+    iconPath: Icons/Icon_Character_020
     illerstrationPath: Illerstration/Illerstration_Character_020
     atkValue: 250
     vitValue: 1200
@@ -532,6 +553,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 21
     characterName: "\uB9AC\uACE0\uC2A4"
+    iconPath: Icons/Icon_Character_021
     illerstrationPath: Illerstration/Illerstration_Character_021
     atkValue: 180
     vitValue: 900
@@ -553,6 +575,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 22
     characterName: "\uC0C8\uB4DC\uC2A4\uB9C8\uC77C"
+    iconPath: Icons/Icon_Character_022
     illerstrationPath: Illerstration/Illerstration_Character_022
     atkValue: 180
     vitValue: 900
@@ -574,6 +597,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 23
     characterName: "\uB2E4\uD06C"
+    iconPath: Icons/Icon_Character_023
     illerstrationPath: Illerstration/Illerstration_Character_023
     atkValue: 180
     vitValue: 1100
@@ -595,6 +619,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 24
     characterName: "\uCD08\uCF54\uBE44\uBE44"
+    iconPath: Icons/Icon_Character_024
     illerstrationPath: Illerstration/Illerstration_Character_024
     atkValue: 200
     vitValue: 900
@@ -616,6 +641,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 25
     characterName: "\uD478\uC6B0\uD478"
+    iconPath: Icons/Icon_Character_025
     illerstrationPath: Illerstration/Illerstration_Character_025
     atkValue: 180
     vitValue: 900
@@ -637,6 +663,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 26
     characterName: "\uC624\uC988"
+    iconPath: Icons/Icon_Character_026
     illerstrationPath: Illerstration/Illerstration_Character_026
     atkValue: 180
     vitValue: 900
@@ -658,6 +685,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 27
     characterName: "\uCF58\uC2A4\uD0C4\uD2B8"
+    iconPath: Icons/Icon_Character_027
     illerstrationPath: Illerstration/Illerstration_Character_027
     atkValue: 180
     vitValue: 900
@@ -679,6 +707,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 28
     characterName: "\uD55C\uAC74\uD638"
+    iconPath: Icons/Icon_Character_028
     illerstrationPath: Illerstration/Illerstration_Character_028
     atkValue: 180
     vitValue: 900
@@ -700,6 +729,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 29
     characterName: "\uB77C\uC784"
+    iconPath: Icons/Icon_Character_029
     illerstrationPath: Illerstration/Illerstration_Character_029
     atkValue: 75
     vitValue: 900
@@ -721,6 +751,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 30
     characterName: "\uC54C\uD30C\uCE74\uB9E8"
+    iconPath: Icons/Icon_Character_030
     illerstrationPath: Illerstration/Illerstration_Character_030
     atkValue: 75
     vitValue: 1200
@@ -742,6 +773,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 31
     characterName: "\uD55C\uC218\uC544"
+    iconPath: Icons/Icon_Character_031
     illerstrationPath: Illerstration/Illerstration_Character_031
     atkValue: 75
     vitValue: 900
@@ -763,6 +795,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 32
     characterName: "\uBE5A\uC7C1\uC774 \uC5F4\uB819\uC804\uC0AC"
+    iconPath: Icons/Icon_Character_032
     illerstrationPath: Illerstration/Illerstration_Character_032
     atkValue: 50
     vitValue: 900
@@ -784,6 +817,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 33
     characterName: "\uBA39\uBCF4 \uC18C\uB77C"
+    iconPath: Icons/Icon_Character_033
     illerstrationPath: Illerstration/Illerstration_Character_033
     atkValue: 30
     vitValue: 1000
@@ -805,6 +839,7 @@ MonoBehaviour:
       \uD568\uAED8 \uBAA8\uD5D8\uC744 \uB5A0\uB09C\uB2E4."
   - index: 34
     characterName: "\uB3C4\uB828\uB2D8 \uB2E4\uD06C"
+    iconPath: Icons/Icon_Character_034
     illerstrationPath: Illerstration/Illerstration_Character_034
     atkValue: 40
     vitValue: 700
@@ -892,7 +927,7 @@ MonoBehaviour:
     atkValue: 150
     vitValue: 150
   - uuid: 100010004
-    itemName: "\uBAA9\uC218\uC758 \uB9DD\uCE58"
+    itemName: "\uACE8\uB4E0\uC7A5\uB3C4\uB9AC"
     description: "\uD2F0\uBBF8 \uC804\uC6A9\uBB34\uAE30"
     sprite: {fileID: 21300000, guid: b9283c8020f5c754f82b5b4832c6c5ed, type: 3}
     price: 0
@@ -1491,6 +1526,9 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: SelectHero
     clip: {fileID: 8300000, guid: 81bed645be268d149bbb3565f45ec52b, type: 3}
+    source: {fileID: 0}
+  - name: Choose
+    clip: {fileID: 8300000, guid: 0608239f8aab4a74abf521e00f845d87, type: 3}
     source: {fileID: 0}
   bgmSounds:
   - name: Village

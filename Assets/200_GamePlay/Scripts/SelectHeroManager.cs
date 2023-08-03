@@ -7,6 +7,10 @@ using System.Linq;
 public class SelectHeroManager : MonoBehaviour
 {
     public GameObject bg_Black;
+    public GameObject ui_SelectHero;
+    public GameObject image_BG;
+    public GameObject ui_BattleInterface;
+
     public Image allyIllerstration;
     public Image enemyIllerstration;
 
@@ -27,6 +31,8 @@ public class SelectHeroManager : MonoBehaviour
 
     public void InitData()
     {
+        ui_SelectHero.SetActive(true);
+        image_BG.SetActive(true);
         bg_Black.SetActive(false);
         allySquadIndexList.Clear();
         enemySquadIndexList.Clear();
@@ -95,6 +101,7 @@ public class SelectHeroManager : MonoBehaviour
 
     public void OnClick_ExcludeHero(int index)
     {
+        SoundManager.instance.PlaySound("Choose");
         // 만약 현재 적용된 캐릭터 수보다 인덱스가 같거나 크면 할 필요가 없음(해당 선택 구역에 캐릭터가 설정되어 있지 않음)
         if (selectHeroInfoList.Count <= index)
         {
@@ -154,6 +161,7 @@ public class SelectHeroManager : MonoBehaviour
         // 전투 시작 전 연출 시작(일러스트 설정)
         SetSquadIllerstration(enemySquad);
 
+        Invoke("DeActiveBlackBG", 3f);
     }
 
     private void SendBattleInfo(EnemySquad enemySquad)
@@ -168,6 +176,7 @@ public class SelectHeroManager : MonoBehaviour
         }
 
         GamePlay.Instance.battleManager.SetInfo(enemySquad, indexList);
+        GamePlay.Instance.battleUIManager.SetInfo(enemySquad, indexList);
     }
 
     private void SetSquadIllerstration(EnemySquad enemySquad)
@@ -185,6 +194,14 @@ public class SelectHeroManager : MonoBehaviour
         {
             enemySquadImageList[i].sprite = Resources.Load<Sprite>(enemySquad.flagPathList[i]);
         }
+    }
+
+    public void DeActiveBlackBG()
+    {
+        bg_Black.SetActive(false);
+        image_BG.SetActive(false);
+        ui_SelectHero.SetActive(false);
+        ui_BattleInterface.SetActive(true);
     }
 }
 

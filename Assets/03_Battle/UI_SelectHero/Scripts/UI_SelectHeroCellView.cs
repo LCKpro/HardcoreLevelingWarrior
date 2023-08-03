@@ -21,6 +21,7 @@ public class UI_SelectHeroCellView : EnhancedScrollerCellView
 
     public void OnClick_SelectHero()
     {
+        SoundManager.instance.PlaySound("Choose");
         GamePlay.Instance.selectHeroManager.AddSquadByRange(_index);
     }
 }

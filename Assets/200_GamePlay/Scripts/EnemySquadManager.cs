@@ -55,4 +55,6 @@ public class EnemySquad
 
     // 적은 스킬을 하나씩만 가짐
     public List<string> skill_TitleList;
+
+    public List<string> miniIconPath;
 }
