@@ -1489,9 +1489,18 @@ MonoBehaviour:
   - name: ButtonClick
     clip: {fileID: 8300000, guid: 943397c0559fe274c8c8b528ac44440f, type: 3}
     source: {fileID: 0}
+  - name: SelectHero
+    clip: {fileID: 8300000, guid: 81bed645be268d149bbb3565f45ec52b, type: 3}
+    source: {fileID: 0}
   bgmSounds:
   - name: Village
     clip: {fileID: 8300000, guid: 7f8cab751a71f384780edc1267e04c40, type: 3}
+    source: {fileID: 0}
+  - name: SelectHero
+    clip: {fileID: 8300000, guid: 15dac94ef00a41b4083ce44430b60f86, type: 3}
+    source: {fileID: 0}
+  - name: Arena
+    clip: {fileID: 8300000, guid: bd0cd315cf00f8c43aaaa58d7e08aff4, type: 3}
     source: {fileID: 0}
 --- !u!1 &5700482316062422175
 GameObject:

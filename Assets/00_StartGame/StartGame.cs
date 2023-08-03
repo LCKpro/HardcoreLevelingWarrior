@@ -7,6 +7,10 @@ public class StartGame : MonoBehaviour
 
     private void Awake()
     {
+        CryptoPlayerPrefs.SetInt("Squad_32", 1);
+        CryptoPlayerPrefs.SetInt("Squad_33", 1);
+        CryptoPlayerPrefs.SetInt("Squad_34", 1);
+
         /*int info_Day = 1;
         int info_Gold = 0;
         int info_LongHammer = 0;

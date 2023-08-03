@@ -250,7 +250,7 @@ TextureImporter:
         width: 150
         height: 372
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -258,6 +258,48 @@ TextureImporter:
       bones: []
       spriteID: d687a17f7610c4443845dbe9e58f2b44
       internalID: 192528079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SkillSlot
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 0
+        width: 230
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1b5425d07ef3747b1c64ae84eaf324
+      internalID: -668197854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_SkillSlot_1
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 0
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02b63316f8be164abe1d0ad75ae2b23
+      internalID: -227014727
       vertices: []
       indices: 
       edges: []
@@ -278,7 +320,9 @@ TextureImporter:
       Frame_5: 1116057351
       UI_Frame_Flag_1: -1858558777
       UI_Frame_Top: 1287863984
+      UI_SkillSlot: -668197854
       UI_VS: 725867612
+      UI_SkillSlot_1: -227014727
       UI_Frame_Skill: 1918777285
   spritePackingTag: 
   pSDRemoveMatte: 0

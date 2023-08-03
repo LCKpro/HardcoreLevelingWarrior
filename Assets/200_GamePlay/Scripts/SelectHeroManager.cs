@@ -6,6 +6,10 @@ using System.Linq;
 
 public class SelectHeroManager : MonoBehaviour
 {
+    public GameObject bg_Black;
+    public Image allyIllerstration;
+    public Image enemyIllerstration;
+
     // 아군 스쿼드 인덱스, 적군 스쿼드 인덱스 모음
     private List<int> allySquadIndexList = new List<int>();
     private List<int> enemySquadIndexList = new List<int>();
@@ -23,6 +27,7 @@ public class SelectHeroManager : MonoBehaviour
 
     public void InitData()
     {
+        bg_Black.SetActive(false);
         allySquadIndexList.Clear();
         enemySquadIndexList.Clear();
 
@@ -129,6 +134,56 @@ public class SelectHeroManager : MonoBehaviour
         else
         {
             nextButton.interactable = false;
+        }
+    }
+
+    public void OnClick_SubmitSquad()
+    {
+        // 상대팀 랜덤 배정
+        var enemySquad = GamePlay.Instance.enemySquadManager.GetRandomEnemySquadData();
+
+        // 클릭시 사운드
+        SoundManager.instance.PlaySound("SelectHero");
+
+        // 전투 정보 매니저에 보내기
+        SendBattleInfo(enemySquad);
+
+        // 버튼은 비활성화
+        nextButton.gameObject.SetActive(false);
+
+        // 전투 시작 전 연출 시작(일러스트 설정)
+        SetSquadIllerstration(enemySquad);
+
+    }
+
+    private void SendBattleInfo(EnemySquad enemySquad)
+    {
+        Debug.Log("EnemySquad Index : " + enemySquad.index);
+
+        var indexList = new List<int>();
+
+        foreach (var info in selectHeroInfoList)
+        {
+            indexList.Add(info.index);
+        }
+
+        GamePlay.Instance.battleManager.SetInfo(enemySquad, indexList);
+    }
+
+    private void SetSquadIllerstration(EnemySquad enemySquad)
+    {
+        bg_Black.SetActive(true);
+
+        string key = string.Format("Illerstration/Illerstration_Character_{0:D3}", selectHeroInfoList[0].index);
+        allyIllerstration.sprite = Resources.Load<Sprite>(key);
+        Debug.Log(key);
+
+        enemyIllerstration.sprite = Resources.Load<Sprite>(enemySquad.illerstrationPathList[0]);
+        Debug.Log(enemySquad.illerstrationPathList[0]);
+
+        for (int i = 0; i < enemySquad.squadMemberCount; i++)
+        {
+            enemySquadImageList[i].sprite = Resources.Load<Sprite>(enemySquad.flagPathList[i]);
         }
     }
 }
