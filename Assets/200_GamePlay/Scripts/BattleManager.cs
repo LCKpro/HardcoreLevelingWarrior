@@ -172,6 +172,23 @@ public class BattleManager : MonoBehaviour
         StartBattle();
     }
 
+    private int selectPattern = 0;
+    private void SelectAttackPattern()
+    {
+        if(selectPattern == 0)
+        {
+            GamePlay.Instance.attackManager.OnClick_StartGause();
+        }
+        else if(selectPattern == 1)
+        {
+            GamePlay.Instance.attackManager.OnClick_StartRGB();
+        }
+        else if (selectPattern == 2)
+        {
+            GamePlay.Instance.attackManager.OnClick_StartBlow();
+        }
+    }
+
     #endregion
 
     #region ¹öÆ°
@@ -197,9 +214,7 @@ public class BattleManager : MonoBehaviour
 
         opponent_Index = index;
         isCanSwitch = false;
-        //GamePlay.Instance.attackManager.OnClick_StartGause();
-        //GamePlay.Instance.attackManager.OnClick_StartRGB();
-        GamePlay.Instance.attackManager.OnClick_StartBlow();
+        SelectAttackPattern();
         GamePlay.Instance.battleUIManager.SetActiveBtn_SkillSelect(false);
     }
 
@@ -241,6 +256,7 @@ public class BattleManager : MonoBehaviour
             return;
         }
 
+        selectPattern = 0;
         SetAttacker(0);
     }
 
@@ -282,6 +298,7 @@ public class BattleManager : MonoBehaviour
             return;
         }
 
+        selectPattern = 1;
         SetAttacker(1);
     }
 
@@ -323,6 +340,7 @@ public class BattleManager : MonoBehaviour
             return;
         }
 
+        selectPattern = 2;
         SetAttacker(2);
     }
 
@@ -364,6 +382,7 @@ public class BattleManager : MonoBehaviour
             return;
         }
 
+        selectPattern = 2;
         SetAttacker(3);
     }
 

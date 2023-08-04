@@ -27,6 +27,8 @@ public class UI_CharacterBooks : MonoBehaviour
 
     public void SetCharacterBook(int index)
     {
+        noAwaken = false;
+        isAwaken = false;
         var info = characterBookInfo.GetCharacterInfoDataByIndex(index);
 
         text_Name.text = info.characterName;

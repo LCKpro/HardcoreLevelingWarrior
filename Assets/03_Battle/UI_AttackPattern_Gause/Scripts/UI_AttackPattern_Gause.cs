@@ -9,10 +9,6 @@ public class UI_AttackPattern_Gause : MonoBehaviour
 
     private IDisposable _gauseTimer = Disposable.Empty;
 
-    public void Init()
-    {
-    }
-
     #region 게이지 공격
 
     private float _time = 0;

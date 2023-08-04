@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -36,10 +35,15 @@ public class SelectHeroManager : MonoBehaviour
         ui_SelectHero.SetActive(true);
         image_BG.SetActive(true);
         bg_Black.SetActive(false);
-        allySquadIndexList.Clear();
-        enemySquadIndexList.Clear();
 
-        nextButton.interactable = false;
+        if(selectHeroInfoList.Count > 1)
+        {
+            nextButton.interactable = true;
+        }
+        else
+        {
+            nextButton.interactable = false;
+        }
 
         // 사거리 데이터 추가
         if (allySquadRangeList == null)
@@ -65,7 +69,7 @@ public class SelectHeroManager : MonoBehaviour
             return;
         }
 
-        if(allySquadImageList.Length <= selectHeroInfoList.Count)
+        if (allySquadImageList.Length <= selectHeroInfoList.Count)
         {
             Debug.Log("더 이상 영웅을 추가할 공간이 없음");
             return;
@@ -149,7 +153,8 @@ public class SelectHeroManager : MonoBehaviour
     public void OnClick_SubmitSquad()
     {
         // 상대팀 랜덤 배정
-        var enemySquad = GamePlay.Instance.enemySquadManager.GetRandomEnemySquadData();
+        //var enemySquad = GamePlay.Instance.enemySquadManager.GetRandomEnemySquadData();
+        var enemySquad = GamePlay.Instance.enemySquadManager.GetEnemySquadDataByIndex(0);
 
         // 클릭시 사운드
         SoundManager.instance.PlaySound("SelectHero");
@@ -163,7 +168,20 @@ public class SelectHeroManager : MonoBehaviour
         // 전투 시작 전 연출 시작(일러스트 설정)
         SetSquadIllerstration(enemySquad);
 
+        // 리스트 클리어
+        SetClearList();
+
         Invoke("DeActiveBlackBG", 3f);
+    }
+
+    private void SetClearList()
+    {
+        allySquadIndexList.Clear();
+        enemySquadIndexList.Clear();
+
+        allySquadRangeList.Clear();
+        selectHeroInfoList.Clear();
+        selectHeroSortList.Clear();
     }
 
     private void SendBattleInfo(EnemySquad enemySquad)

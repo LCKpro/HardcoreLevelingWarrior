@@ -143,11 +143,13 @@ public class UI_AttackPattern_RGB : MonoBehaviour
 
         if(imageNumberList[currentIndex] == 0)
         {
+            SoundManager.instance.PlaySound("RGBSuccess");
             rgbImageList[currentIndex].color = new Color(1, 1, 1, 1);
             currentIndex++;
         }
         else
         {
+            SoundManager.instance.PlaySound("RGBFail");
             anim_RGB[0].SetTrigger("Incorrect");
         }
 
@@ -163,11 +165,13 @@ public class UI_AttackPattern_RGB : MonoBehaviour
 
         if (imageNumberList[currentIndex] == 1)
         {
+            SoundManager.instance.PlaySound("RGBSuccess");
             rgbImageList[currentIndex].color = new Color(1, 1, 1, 1);
             currentIndex++;
         }
         else
         {
+            SoundManager.instance.PlaySound("RGBFail");
             anim_RGB[1].SetTrigger("Incorrect");
         }
 
@@ -183,11 +187,13 @@ public class UI_AttackPattern_RGB : MonoBehaviour
 
         if (imageNumberList[currentIndex] == 2)
         {
+            SoundManager.instance.PlaySound("RGBSuccess");
             rgbImageList[currentIndex].color = new Color(1, 1, 1, 1);
             currentIndex++;
         }
         else
         {
+            SoundManager.instance.PlaySound("RGBFail");
             anim_RGB[2].SetTrigger("Incorrect");
         }
 
