@@ -50,6 +50,7 @@ public class GamePlay : MonoBehaviour
     public EnemySquadManager enemySquadManager;
     public BattleManager battleManager;
     public BattleUIManager battleUIManager;
+    public AttackManager attackManager;
 
     public void Cheat_ResetScene()
     {

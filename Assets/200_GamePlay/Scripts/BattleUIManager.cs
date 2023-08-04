@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using UniRx;
 
 public class BattleUIManager : MonoBehaviour
 {
@@ -12,6 +14,14 @@ public class BattleUIManager : MonoBehaviour
     public Image[] characterIcon_Skill;   // 맨 오른쪽부터 인덱스 0 시작
 
     public Image[] skillIcon;
+
+    public Image[] hpBar_Ally;
+    public Image[] hpBar_Enemy;
+
+    public GameObject[] btn_SkillSelectList;
+    public GameObject btn_SkillSelect;
+
+    private IDisposable _hpBarTimer = Disposable.Empty;
 
     public void SetInfo(EnemySquad enemySquadInfo, List<int> allySquadInfo)
     {
@@ -35,10 +45,6 @@ public class BattleUIManager : MonoBehaviour
                 characterIcon_Skill[i].gameObject.SetActive(false);
                 skillIcon[i * 2].gameObject.SetActive(false);
                 skillIcon[i * 2 + 1].gameObject.SetActive(false);
-
-                /*miniIcon_Ally[i].color = new Color(1, 1, 1, 0);
-                skillIcon[i * 2].color = new Color(1, 1, 1, 0);
-                skillIcon[i * 2 + 1].color = new Color(1, 1, 1, 0);*/
             }
 
             if(i < enemySquadInfo.squadMemberCount)
@@ -48,6 +54,82 @@ public class BattleUIManager : MonoBehaviour
             else
             {
                 miniIcon_Enemy[i].color = new Color(1, 1, 1, 0);
+            }
+        }
+    }
+
+    public void SetAllyHPUI(int index, float currentVit, float maxVit)
+    {
+        // 현재 체력 비율
+        float rate = currentVit / maxVit;
+
+        SetHPBarTimer(hpBar_Ally[index], rate);
+    }
+
+    public void SetAllyZeroHP(int index)
+    {
+        hpBar_Ally[index].fillAmount = 0;
+        SetHPBarTimer(hpBar_Ally[index], 0);
+    }
+
+    public void SetEnemyHPUI(int index, float currentVit, float maxVit)
+    {
+        // 현재 체력 비율
+        float rate = currentVit / maxVit;
+
+        SetHPBarTimer(hpBar_Enemy[index], rate);
+    }
+
+    public void SetEnemyZeroHP(int index)
+    {
+        hpBar_Enemy[index].fillAmount = 0;
+        SetHPBarTimer(hpBar_Enemy[index], 0);
+    }
+
+    private void SetHPBarTimer(Image hpBar, float rate)
+    {
+        _hpBarTimer.Dispose();
+        _hpBarTimer = Disposable.Empty;
+
+        float currentRate = hpBar.fillAmount;
+
+        _hpBarTimer = Observable.EveryUpdate().TakeUntilDisable(gameObject)
+            .TakeUntilDestroy(gameObject)
+            .Subscribe(_ =>
+            {
+                var dt = Time.deltaTime;
+
+                currentRate -= dt / 2;
+
+                if (currentRate <= rate)
+                {
+                    hpBar.fillAmount = rate;
+                    _hpBarTimer.Dispose();
+                    _hpBarTimer = Disposable.Empty;
+                }
+                else
+                {
+                    hpBar.fillAmount = currentRate;
+                }
+            });
+    }
+
+    public void SetActiveBtn_SkillSelect(bool isActive)
+    {
+        btn_SkillSelect.SetActive(isActive);
+    }
+
+    public void SetBtn_SkillSelectList(bool[] isDead)
+    {
+        for (int i = 0; i < btn_SkillSelectList.Length; i++)
+        {
+            if(isDead[i] == false)
+            {
+                btn_SkillSelectList[i].SetActive(true);
+            }
+            else
+            {
+                btn_SkillSelectList[i].SetActive(false);
             }
         }
     }

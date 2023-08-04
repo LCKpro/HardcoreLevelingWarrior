@@ -10,6 +10,7 @@ public class SelectHeroManager : MonoBehaviour
     public GameObject ui_SelectHero;
     public GameObject image_BG;
     public GameObject ui_BattleInterface;
+    public GameObject ui_SortBtn;
 
     public Image allyIllerstration;
     public Image enemyIllerstration;
@@ -31,6 +32,7 @@ public class SelectHeroManager : MonoBehaviour
 
     public void InitData()
     {
+        ui_SortBtn.SetActive(true);
         ui_SelectHero.SetActive(true);
         image_BG.SetActive(true);
         bg_Black.SetActive(false);
@@ -181,6 +183,7 @@ public class SelectHeroManager : MonoBehaviour
 
     private void SetSquadIllerstration(EnemySquad enemySquad)
     {
+        ui_SortBtn.SetActive(false);
         bg_Black.SetActive(true);
 
         string key = string.Format("Illerstration/Illerstration_Character_{0:D3}", selectHeroInfoList[0].index);
