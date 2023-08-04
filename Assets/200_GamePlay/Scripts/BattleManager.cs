@@ -197,7 +197,9 @@ public class BattleManager : MonoBehaviour
 
         opponent_Index = index;
         isCanSwitch = false;
-        GamePlay.Instance.attackManager.OnClick_StartRGB();
+        //GamePlay.Instance.attackManager.OnClick_StartGause();
+        //GamePlay.Instance.attackManager.OnClick_StartRGB();
+        GamePlay.Instance.attackManager.OnClick_StartBlow();
         GamePlay.Instance.battleUIManager.SetActiveBtn_SkillSelect(false);
     }
 

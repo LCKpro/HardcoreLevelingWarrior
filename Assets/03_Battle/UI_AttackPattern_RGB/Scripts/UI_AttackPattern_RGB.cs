@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -134,7 +133,6 @@ public class UI_AttackPattern_RGB : MonoBehaviour
 
     #region ¹öÆ°
 
-    #endregion
 
     public void OnClick_Red()
     {
@@ -195,4 +193,7 @@ public class UI_AttackPattern_RGB : MonoBehaviour
 
         CheckEnd();
     }
+
+    #endregion
+
 }
